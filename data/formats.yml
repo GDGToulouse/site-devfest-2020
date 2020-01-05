@@ -1,0 +1,18 @@
+- key: conference
+  name: 'Conference '
+  id: 4c0d8a93-a0fb-5fe4-ab31-7cc56e05e942
+- key: keynote
+  name: Keynote
+- key: lightning_talk
+  name: Lightning talk
+  id: 21275be2-fe57-5c46-b3c8-f7089c08bf9c
+- key: lunch
+  name: Lunch
+- key: office-hours
+  name: Office Hours
+- key: open
+  name: Ouverture
+- key: party
+  name: Party
+- key: pause
+  name: Pause

@@ -1,0 +1,36 @@
+- key: _big_data___ml___ai
+  name: "\U0001F916 Big Data / ML / AI"
+  id: 92dfb52d-077e-511f-9678-11b07206ed6c
+- key: _cloud___infra
+  name: "\U0001F329 Cloud / Infra"
+  id: ad11e961-6a06-53a3-81c2-a050e98e96ea
+- key: _iot
+  name: "\U0001F4DF IOT"
+  id: e2724ad2-0757-5456-a68a-e7d5cad32721
+- key: _languages
+  name: "\U0001F4DD Languages"
+  id: 3e79596d-6302-5601-a027-901bff9e2692
+- key: _method___tools
+  name: "\U0001F6E0 Method & Tools"
+  id: 4209a0d2-4419-5432-b3b1-f006ae3acadd
+- key: _native_mobile_apps
+  name: "\U0001F4F1 Native mobile apps"
+  id: 081ab838-0d3e-5843-a3e5-0ab8247853b5
+- key: _web
+  name: "\U0001F30D Web"
+  id: cf75cee3-5ee8-58de-ac77-6bb665a3463d
+- key: _wtf
+  name: "\U0001F381 WTF"
+  id: bd9ab640-9181-5f5d-a1e7-a228fd87c7bb
+- key: keynote
+  name: Keynote
+- key: lunch
+  name: Lunch
+- key: office-hours
+  name: Office Hours
+- key: open
+  name: Ouverture
+- key: party
+  name: Party
+- key: pause
+  name: Pause
