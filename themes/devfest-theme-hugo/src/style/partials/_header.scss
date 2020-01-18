@@ -171,6 +171,13 @@ body > header {
 
       ul {
         flex-direction: column;
+
+        li {
+          transform: none;
+          a {
+            transform: none;
+          }
+        }
       }
 
       a {

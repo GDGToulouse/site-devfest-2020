@@ -1,9 +1,10 @@
 ---
 title: Speakers
 
-#menu.main.weight: 40
+#menu:
+#  main:
+#    weight: 40
 
-draft: true
 ---
 
 {{% hero %}}

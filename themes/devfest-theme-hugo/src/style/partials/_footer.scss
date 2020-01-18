@@ -1,6 +1,6 @@
 body > footer {
-  background-color: var(--darken-1);
-  color: var(--base-secondary-text);
+  background-color: var(--footer-bg);
+  color: var(--footer-fg);
   font-weight: 200;
   padding: 0.5em 1em;
 
@@ -53,6 +53,10 @@ body > footer {
         opacity: 1;
         filter: grayscale(0);
       }
+    }
+
+    .blog {
+      display: none;
     }
 
     .blog a {

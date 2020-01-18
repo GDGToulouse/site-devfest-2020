@@ -1,13 +1,13 @@
-# Site DevFest 2019
+# Site DevFest 2020
 
-[![pipeline status](https://gitlab.com/devfest-toulouse/site-devfest-2019/badges/develop/pipeline.svg)](https://gitlab.com/devfest-toulouse/site-devfest-2019/commits/develop)
+![](https://github.com/GDGToulouse/site-devfest-2020/workflows/sandbox/badge.svg)
 
 ## Requirement
 
 * [Install Hugo](https://gohugo.io/getting-started/installing/)
   Note: you need to install the extended version.
 
-* If you need to use tools, or deploy, you also need [NodeJS](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/lang/en/docs/install).
+* If you need to use tools, or deploy, you also need [NodeJS](https://nodejs.org/en/).
 
 ## Install Theme
 
@@ -32,7 +32,8 @@ Just run
 hugo server -D
 ```
 
-Notice that the `-D` flag is used to rendrer draft elements.
+Notice that the `-D` flag is used to rendrer draft elements,
+you also can add the `-F` to build elements planed for future.
 
 More information [here](https://gohugo.io/commands/hugo_server/)
 
@@ -51,7 +52,7 @@ More information [here](https://gohugo.io/commands/hugo/)
 You can edit
 
 * general information about the site into the `config.toml` file.
-* some data into `data/*.yml` files, like header or footer information
+* some data into `data/*.yml` files, for header and footer information, team or schedule data.
 * some content into `content/**` files.
 * some static assets like images into the `static/*` folder
 
@@ -70,9 +71,9 @@ so you need to handle this two repository.
  
 So this is an example of workflow:
  
-* install last NodeJS and yarn, see [here](https://github.com/creationix/nvm) and [yarn](https://yarnpkg.com/)
+* install last NodeJS, see [here](https://github.com/creationix/nvm)
 * go into the theme folder `./themes/devfest-theme-hugo/`
-* install dependencies with `yarn`
+* install dependencies with `npm install`
 * run `npm start` to launch automatically the build when a file change
 * (you still need to launch `hugo server` into the site folder)
 * HACK, HACK, HACK
@@ -87,9 +88,5 @@ To publish the site on firebase, just run `firebase deploy`.
 Note that you need to authenticate once with `firebase login`
 YOU DON'T NEED to publish manually the website, it's already done by pushing on `develop` or `master` branches.
  
-You could take a look at the `.gitlab-ci.yml` file
+You could take a look at the `.github/workflows` file
 
-
-### Extract data from CFP
-
-TODO...

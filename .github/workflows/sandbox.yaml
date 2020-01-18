@@ -1,0 +1,57 @@
+name: Deploy to sandbox
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    name: Publish to sandbox
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 0.62.2
+
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Site
+        run: hugo -F
+
+#      - name: Generate PDF
+#        run: node tools/pdf.js
+
+      - name: Optimize HTML
+        run: node tools/minify.js
+
+      - name: Configure to Sandbox
+        uses: w9jds/firebase-action@master
+        with:
+          args: use default
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
+      - name: Publish to Sandbox
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@master
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: 08_site-applimobile

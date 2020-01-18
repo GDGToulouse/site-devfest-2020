@@ -1,4 +1,9 @@
-<div class="photo" role="presentation" style="background-image: url('{{ relURL (path.Join "images" "team" .photo) }}');"></div>
+<picture class="photo">
+	<source srcset="{{ relURL (path.Join "images" "team" .key) }}.webp" type="image/webp">
+	<source srcset="{{ relURL (path.Join "images" "team" .photo) }}" type="image/jpeg">
+	<img src="{{ relURL (path.Join "images" "team" .photo) }}" alt="">
+</picture>
+
 <div class="label">
 	<h3>{{ .title }}</h3>
 	<h4>{{ .subtitle }}</h4>

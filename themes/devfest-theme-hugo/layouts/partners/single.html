@@ -1,7 +1,13 @@
 {{ define "main" }}
 
 <section class="header">
-	<div class="card" style="background-image: url({{ .Params.logo }});"></div>
+
+	<picture class="card">
+		<source srcset="{{ relURL (path.Join "images" "partners" .Params.category .Params.key) }}.webp" type="image/webp">
+		<source srcset="{{.Params.logo}}" type="image/jpeg">
+		<img src="{{.Params.logo}}" alt="">
+	</picture>
+
 	<h1>{{ .Title }}</h1>
 	{{ if .Params.website }}
 	<a href="{{ .Params.website }}">{{ .Params.website }}</a>

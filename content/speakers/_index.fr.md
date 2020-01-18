@@ -1,9 +1,10 @@
 ---
 title: Présentateurs
 
-#menu.main.weight: 40
-  
-draft: true
+#menu:
+#  main:
+#    weight: 40
+
 ---
 
 {{% hero %}}

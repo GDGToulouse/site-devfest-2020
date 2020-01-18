@@ -1,7 +1,12 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 <section class="location">
 
-	<div class="map" style="background-image: url('{{ .Get "image" }}');"></div>
+	<picture class="map">
+		<source srcset="{{ .Get "image" }}.webp" type="image/webp">
+		<source srcset="{{ .Get "image" }}.jpg" type="image/jpeg">
+		<img src="{{ .Get "image" }}.jpg" alt="">
+	</picture>
+
 
 	<div class="description">
 		<div class="inner">

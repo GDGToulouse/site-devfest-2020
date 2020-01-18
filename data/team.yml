@@ -24,6 +24,14 @@
     - link: 'https://github.com/scraly'
       name: Github
   key: aurelie_vache
+- title: Aurelien Baumann
+  type: volunteers
+  subtitle: Go's guru
+  photo: aurelien_baumann.jpg
+  socials:
+    - link: 'https://twitter.com/kendo5731'
+      name: Twitter
+  key: aurelien_baumann
 - title: Didier Plaindoux
   type: volunteers
   subtitle: Toulouse JUG
@@ -60,6 +68,12 @@
     - link: 'https://www.linkedin.com/in/jean-martineau-figuette/'
       name: LinkedIn
   key: euzebe
+- title: Guilhem Demiollis
+  type: volunteers
+  subtitle: Cloud's guru
+  photo: guilhem_demiollis.jpg
+  socials: []
+  key: guilhem_demiollis
 - title: Hadrien Toma
   type: core
   subtitle: ''
@@ -69,7 +83,7 @@
       name: Twitter
     - link: 'https://www.linkedin.com/in/hadrien-toma/'
       name: LinkedIn
-  key: hadrien_thomas
+  key: hadrien_toma
 - title: Igor Laborie
   type: core
   subtitle: Choloepusophile
@@ -87,7 +101,7 @@
   socials:
     - link: 'https://twitter.com/JulienDelRio'
       name: Twitter
-  key: julien_del_rio
+  key: julien_delrio
 - title: Julien Renaux
   type: core
   subtitle: Président GDG Toulouse
@@ -142,6 +156,14 @@
     - link: 'https://twitter.com/Maxime_Pawlak'
       name: Twitter
   key: maxime_pawlak
+- title: Maxime Warnier
+  type: volunteers
+  subtitle: JavaScript's guru
+  photo: maxime_warnier.jpg
+  socials:
+    - link: 'https://twitter.com/maxdow'
+      name: Twitter
+  key: maxime_warnier
 - title: Michaël Bitard
   type: core
   subtitle: Electron liiiibre

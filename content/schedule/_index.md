@@ -1,10 +1,12 @@
 ---
 title: Schedule
-#menu.main.weight: 10
+
+#menu:
+#  main:
+#    weight: 10
 
 horizontal: false
 
-draft: true
 ---
 
 {{% hero %}}

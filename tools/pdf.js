@@ -1,6 +1,5 @@
 const puppeteer = require('puppeteer');
-const {Logger, LogLevel} = require('plop-logger');
-const {colorEmojiConfig} = require('plop-logger/lib/extra/colorEmojiConfig');
+const {Logger, LogLevel, colorEmojiConfig} = require('plop-logger');
 const handler = require('serve-handler');
 const http = require('http');
 
