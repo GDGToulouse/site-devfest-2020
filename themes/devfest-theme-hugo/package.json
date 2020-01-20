@@ -8,11 +8,11 @@
   "private": true,
   "scripts": {
     "watch:script": "rollup -c --watch",
-    "watch:style": "node-sass src/style/theme.scss -o static --watch",
+    "watch:style": "node-sass src/styles/theme.scss -o static --watch",
     "start": "run-p watch:*",
     "build:icons": "node icons.js",
     "build:script": "rollup -c rollup.config.prod.js",
-    "build:style": "node-sass src/style/theme.scss -o static; postcss static/theme.css --replace",
+    "build:style": "node-sass src/styles/theme.scss -o static; postcss static/theme.css --replace",
     "build": "run-p build:*"
   },
   "dependencies": {

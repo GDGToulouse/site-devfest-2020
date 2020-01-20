@@ -9,7 +9,7 @@ logger.level = LogLevel.All;
 const globals = {firebase: 'firebase'};
 
 export default {
-  input: 'src/script/main.js',
+  input: 'src/scripts/main.js',
   output: [
     {file: 'static/theme.js', format: 'esm', globals}
   ],
