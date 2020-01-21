@@ -120,7 +120,7 @@ in the immediate vicinity of the centre of Toulouse and in a green environment.
 
 ### Some pictures of the **DevFest Toulouse 2019**.
 
-<a class="btn primary" target="_blank" rel="noopener" href="https://photos.app.goo.gl/N56CbrU79XHRdGEF9">
+<a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://photos.app.goo.gl/N56CbrU79XHRdGEF9">
     See all photos
     {{% icon "right" %}}
 </a>

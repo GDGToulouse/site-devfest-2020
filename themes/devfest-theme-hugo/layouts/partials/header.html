@@ -20,7 +20,7 @@
 				{{ range .Site.Menus.main }}
 				<li class="menu-{{ .Identifier }} {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }} {{ if (hasPrefix .URL "http") }}external{{ end }}" >
 				{{ if (hasPrefix .URL "http") }}
-				<a class="external" rel="noreferrer" target="_blank" href="{{ .URL }}" title="{{ .Name }}">
+				<a class="external" rel="noopener noreferrer" target="_blank" href="{{ .URL }}" title="{{ .Name }}">
 					{{ partial "icon.html" "external" }}
 					{{ .Name }}
 				</a>

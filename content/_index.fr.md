@@ -119,7 +119,7 @@ situé sur un emplacement privilégié,
 
 ### Quelques photos du **DevFest Toulouse 2019**. 
 
-<a class="btn primary" target="_blank" rel="noopener" href="https://photos.app.goo.gl/N56CbrU79XHRdGEF9">
+<a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://photos.app.goo.gl/N56CbrU79XHRdGEF9">
     Voir toutes les photos
     {{% icon "right" %}}
 </a>

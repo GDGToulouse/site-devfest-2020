@@ -10,7 +10,7 @@
 	<ul class="socials">
 		{{ range .socials }}
 		<li>
-			<a class="social" rel="noreferrer" href="{{ .link }}" target="_blank">
+			<a class="social" rel="noopener noreferrer" href="{{ .link }}" target="_blank">
 				{{ partial "icon.html" (lower .name) }}
 				{{- .name -}}
 			</a>
