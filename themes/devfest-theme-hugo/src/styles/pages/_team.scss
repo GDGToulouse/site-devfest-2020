@@ -28,8 +28,10 @@
       .photo {
         --size: 6rem;
         box-shadow: 0 0 0 var(--space-2) var(--darken-2);
-        width: var(--size, 6rem);
-        height: var(--size, 6rem);
+        min-width: var(--size);
+        min-height: var(--size);
+        max-width: var(--size);
+        max-height: var(--size);
         border-radius: 100%;
         overflow: hidden;
         margin: var(--space-2);

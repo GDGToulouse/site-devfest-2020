@@ -1,13 +1,13 @@
 
-
 .album {
   padding: var(--space-2);
 
   .img {
-    background: yellow;
+    background: var(--darken-2);
     overflow: hidden;
   }
-  picture.img * {
+
+  .img > * {
     object-fit: cover;
     object-position: 50% 50%;
     width: 100%;
