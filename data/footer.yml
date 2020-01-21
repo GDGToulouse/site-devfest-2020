@@ -29,6 +29,9 @@ content:
       - nameKey: footer_coc
         url: /code-of-conduct/
         newTab: false
+      - name: qwanturank
+        url: https://qwanturank.live/
+        newTab: true
 
   - title: footer_previous_edition
     links:
