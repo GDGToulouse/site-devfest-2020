@@ -66,8 +66,6 @@ googleAnalytics = "UA-37717223-9"
 [taxonomies]
   tag = "tags"
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
-
 [privacy]
   [privacy.disqus]
     disable = true

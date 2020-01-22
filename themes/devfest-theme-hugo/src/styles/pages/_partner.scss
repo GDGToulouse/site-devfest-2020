@@ -12,14 +12,13 @@
       grid-area: logo;
       height: 8em;
       width: 12em;
-      display: inline-block;
-
       padding: .25em;
-
       margin-right: 1em;
       box-shadow: .125em .125em .25em rgba(0, 0, 0, .5);
-
-      text-align: center;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
         &> * {
           max-width: 100%;
