@@ -33,6 +33,9 @@ jobs:
 #      - name: Generate schedule in PDF
 #        run: node tools/pdf.js
 
+      - name: Generate PWA cace
+        run: node tools/service-worker.js
+
       - name: Optimize HTML
         run: node tools/minify.js
 

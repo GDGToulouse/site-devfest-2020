@@ -18,6 +18,8 @@
     "plop-logger": "^3.0.0",
     "puppeteer": "^2.0.0",
     "serve-handler": "^6.1.1",
-    "sharp": "^0.24.0"
+    "sharp": "^0.24.0",
+    "uglify-js": "^3.7.6",
+    "workbox-build": "^4.3.1"
   }
 }
