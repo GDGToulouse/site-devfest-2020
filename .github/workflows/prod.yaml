@@ -40,14 +40,14 @@ jobs:
         run: node tools/minify.js
 
       - name: Configure to Sandbox
-        uses: w9jds/firebase-action@master
+        uses: w9jds/firebase-action@v1.2.0
         with:
           args: use prod
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_PROD_TOKEN }}
 
       - name: Publish to Sandbox
-        uses: w9jds/firebase-action@master
+        uses: w9jds/firebase-action@v1.2.0
         with:
           args: deploy --only hosting
         env:

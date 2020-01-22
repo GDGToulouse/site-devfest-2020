@@ -14,13 +14,15 @@ body > header {
     align-items: center;
   }
 
-  box-shadow: 0 var(--space-1) var(--primary),
-  0 var(--space-2) var(--space-1) var(--darken-3);
+  box-shadow: 0 var(--space-1) var(--space-1) var(--darken-3);
   background: var(--primary);
   color: var(--primary-txt);
 
-  .logo img {
-    height: calc(var(--toolbar-height) - (2 * var(--space-2)));
+  .logo {
+    padding: var(--space-2) 0;
+    img {
+      height: calc(var(--toolbar-height) - (2 * var(--space-2)));
+    }
   }
 
   label {
@@ -91,7 +93,8 @@ body > header {
 
       &.active {
         opacity: 1;
-        a{
+
+        a {
           border-bottom: thin solid currentColor;
         }
       }
@@ -173,6 +176,7 @@ body > header {
 
         li {
           transform: none;
+
           a {
             transform: none;
           }

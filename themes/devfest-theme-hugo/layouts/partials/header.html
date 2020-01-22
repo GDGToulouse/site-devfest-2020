@@ -25,7 +25,7 @@
 					{{ .Name }}
 				</a>
 				{{ else if (isset .Page.Params "icon") }}
-				<a href="{{ .URL | relLangURL }}" class="link-icon" title="{{ .Name }}">
+				<a href="{{ .URL | relLangURL }}" class="link-icon" title="{{ .Name }}" aria-label="{{ .Name }}">
 						{{ partial "icon.html" .Page.Params.icon }}
 				</a>
 				{{ else }}

@@ -98,7 +98,7 @@ Le DevFest, ou 'Developers Festival', est une conférence technique destinée au
 <!-- ... -->
 
 {{% home-location
-    image="/images/map.jpg"
+    image="/images/map"
     address="11 Espl. Compans-Caffarelli, 31000 Toulouse"
     latitude="43.6110956"
     longitude="1.4332799" %}}

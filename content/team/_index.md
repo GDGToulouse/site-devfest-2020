@@ -19,7 +19,7 @@ To make all this possible, an awesome team of volunteers is working behind the s
 
 <!-- ... -->
 
-{{< teams types="core=Core Team,volunteers=Volunteers,cfp=CFP" >}}
+{{< teams types="core=Core Team,kids=DevFest Pitchouns,volunteers=Volunteers,cfp=CFP" >}}
 
 <!-- ... -->
 

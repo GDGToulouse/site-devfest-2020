@@ -11,7 +11,7 @@
       name: Linkedin
   key: alexia_audevart
 - title: Aurélie Vache
-  type: core
+  type: kids
   subtitle: Duchess France / Toulouse Data Science
   photo: aurelie_vache.jpg
   socials:
@@ -69,7 +69,7 @@
       name: LinkedIn
   key: euzebe
 - title: Guilhem Demiollis
-  type: volunteers
+  type: kids
   subtitle: Cloud's guru
   photo: guilhem_demiollis.jpg
   socials: []
@@ -184,6 +184,14 @@
     - link: 'https://www.linkedin.com/in/michael-pailloncy-21119827/'
       name: LinkedIn
   key: michael_pailloncy
+- title: Nicolas Decoster
+  type: kids
+  subtitle: ''
+  photo: nicolas_decoster.png
+  socials:
+    - link: 'https://twitter.com/ogadaki'
+      name: Twitter
+  key: nicolas_decoster
 - title: Serge Boucher
   type: core
   subtitle: ''
