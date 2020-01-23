@@ -1,6 +1,22 @@
+@import "themes/devfest-theme-hugo/src/styles/root";
+@import "themes/devfest-theme-hugo/src/styles/variables";
+@import "node_modules/sass-mq/mq";
+
+@import "themes/devfest-theme-hugo/src/styles/partials/base";
+@import "themes/devfest-theme-hugo/src/styles/partials/main";
+@import "themes/devfest-theme-hugo/src/styles/partials/buttons";
+@import "themes/devfest-theme-hugo/src/styles/partials/icons";
+@import "themes/devfest-theme-hugo/src/styles/partials/header";
+@import "themes/devfest-theme-hugo/src/styles/partials/footer";
+@import "themes/devfest-theme-hugo/src/styles/partials/socials";
+
+@import "themes/devfest-theme-hugo/src/styles/partials/table_of_contents";
+
+// Custom CSS
 main > .kids {
   .hero {
     position: relative;
+
     .img {
       background-repeat: no-repeat;
       background-size: cover;
@@ -20,10 +36,12 @@ main > .kids {
       padding-right: 0;
       margin: 0;
       font-size: 3rem;
+
       small {
         display: block;
         font-size: 0.6em;
       }
+
       @include mq($until: md) {
         font-size: 2rem;
       }
@@ -40,6 +58,7 @@ main > .kids {
       flex-direction: column;
       align-items: center;
     }
+
     img {
       margin: 10px;
     }
@@ -106,3 +125,4 @@ main > .kids {
     }
   }
 }
+

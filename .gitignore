@@ -7,3 +7,5 @@ node_modules/
 yarn-error.log
 
 static/schedule/schedule*.pdf
+
+/static/styles/*.css
