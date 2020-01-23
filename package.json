@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build:images": "node tools/images.js",
+    "build:icons": "node tools/icons.js",
     "build:styles": "node tools/styles.js",
     "build:site": "hugo",
     "build:service-worker": "node tools/service-worker.js",

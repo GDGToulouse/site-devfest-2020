@@ -47,8 +47,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 <!--	<link rel="stylesheet" href="/theme.css" media="all">-->
-	<link rel="stylesheet" href="/{{ .Type }}-{{ .Kind }}.css" media="all">
-
+	<link rel="stylesheet" href="/styles/{{ .Type }}{{ if ne .Type "" }}-{{ end }}{{ .Kind }}.css" media="all">
 
 	<script>
     if ('serviceWorker' in navigator) {
