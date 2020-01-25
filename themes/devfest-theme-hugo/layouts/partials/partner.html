@@ -1,11 +1,4 @@
-<a class="partner"
-   href="{{ .URL }}"
-   title="{{ .Title }}">
-
-	<picture>
-		<source srcset="{{ relURL (path.Join "images" "partners" .Params.category .Params.key) }}.webp" type="image/webp">
-		<source srcset="{{.Params.logo}}" type="image/jpeg">
-		<img src="{{.Params.logo}}" alt="">
-	</picture>
-
+{{ $img := relURL (path.Join "images" "partners" .Params.category .Params.key) }}
+<a class="partner" href="{{ .URL }}" title="{{ .Title }}">
+{{ partial "picture" (dict "img" $img ) }}
 </a>

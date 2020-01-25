@@ -2,11 +2,8 @@
 
 <section class="header">
 
-	<picture class="card">
-		<source srcset="{{ relURL (path.Join "images" "partners" .Params.category .Params.key) }}.webp" type="image/webp">
-		<source srcset="{{.Params.logo}}" type="image/jpeg">
-		<img src="{{.Params.logo}}" alt="">
-	</picture>
+	{{ $img := relURL (path.Join "images" "partners" .Params.category .Params.key) }}
+	{{ partial "picture" (dict "img" $img "class" "card") }}
 
 	<h1>{{ .Title }}</h1>
 	{{ if .Params.website }}

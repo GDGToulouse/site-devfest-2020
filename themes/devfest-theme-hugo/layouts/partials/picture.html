@@ -1,0 +1,15 @@
+{{/* 
+	usage {{ partial "picture" (dict "img" XXX "class" XXX "widths" (slice 500 320, ...))}}
+	argument: a dictionary
+	"img": mandartory image path without extension
+	"class": the picture class if any
+	"widths": array of sizes if any
+ */}}
+{{- $img := index . "img" }}
+{{- $class := index . "class" }}
+{{- $widths := index . "widths" }}
+<picture {{ if $class }}class="{{ $class }}"{{ end }}>
+	<source srcset="{{ $img }}.webp" type="image/webp">
+	<source srcset="{{ $img }}.jpg" type="image/jpeg">
+	<img src="{{ $img }}.jpg" alt="">
+</picture>

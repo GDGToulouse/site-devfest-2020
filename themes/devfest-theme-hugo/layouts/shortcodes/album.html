@@ -1,11 +1,7 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 <div class="album">
 {{ range (split (.Get "images") ",") }}
-<picture class="img">
-	<source srcset="{{ . }}.webp" type="image/webp">
-	<source srcset="{{ . }}.jpg" type="image/jpeg">
-	<img src="{{.}}.jpg" alt="">
-</picture>
+{{ partial "picture" (dict "img" . "class" "img") }}
 {{ end }}
 <div class="inner">{{ .Inner }}</div>
 
