@@ -12,11 +12,11 @@ const failure = msg => err => {
   console.error(err);
 };
 
-
 // Resize and convert
 const imagesFiles = [
   {files: `static/images/album/**/*.*`, format: 'webp'},
   {files: `static/images/backgrounds/*.*`, format: 'webp'},
+  {files: `static/images/kids/*.*`, format: 'webp'},
   {files: `static/images/logos/*_text*.*`, width: 640, format: 'png'},
   {files: `static/images/partners/**/*.*`, height: 180, format: 'webp'},
   {files: `static/images/team/*.*`, width: 150, format: 'webp'},

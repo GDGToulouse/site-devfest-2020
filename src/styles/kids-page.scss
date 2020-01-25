@@ -10,119 +10,106 @@
 @import "themes/devfest-theme-hugo/src/styles/partials/footer";
 @import "themes/devfest-theme-hugo/src/styles/partials/socials";
 
+@import "themes/devfest-theme-hugo/src/styles/partials/hero";
 @import "themes/devfest-theme-hugo/src/styles/partials/table_of_contents";
 
 // Custom CSS
-main > .kids {
-  .hero {
-    position: relative;
 
-    .img {
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
+.hero {
+  overflow: hidden;
+  position: relative;
+}
 
-      text-shadow: 1px 0 0 var(--lighten-3);
-      min-height: 45vmin;
-    }
-
-    h1 {
-      position: absolute;
-      bottom: 0;
-      max-width: var(--theJdrSize);
-      margin: 0 auto;
-      color: var(--primary-txt);
-      padding-left: 0;
-      padding-right: 0;
-      margin: 0;
-      font-size: 3rem;
-
-      small {
-        display: block;
-        font-size: 0.6em;
-      }
-
-      @include mq($until: md) {
-        font-size: 2rem;
-      }
-      @include mq($until: sm) {
-        font-size: 1.5rem;
-      }
-    }
+.img {
+  overflow: hidden;
+  & > * {
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 45vmin;
+    object-fit: cover;
+    object-position: 50% 50%;
   }
 
-  .img-container {
-    display: flex;
-    flex-direction: row;
-    @include mq($until: md) {
-      flex-direction: column;
-      align-items: center;
-    }
+}
 
-    img {
-      margin: 10px;
-    }
-  }
+.hero h1, .content {
+  margin: 0 auto;
+  padding: 2rem var(--container-margin);
 
-  h1,
-  .content {
-    max-width: var(--theJdrSize);
-    margin: 0 auto;
-  }
-
-  .content {
-    padding-left: 0;
-    padding-right: 0;
-
-    @include mq($until: md) {
-      margin: 1rem;
-    }
-
-    img {
-      max-width: 100%;
-    }
-
-    .centered-img {
-      text-align: center;
-      margin: var(--space-3) 0;
-    }
-
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: var(--primary);
-      font-style: normal;
-      font-weight: 400;
-    }
-
-    h2,
-    h3 {
-      margin-top: 1.25rem; // 10px
-      margin-bottom: 0.625rem; // 10px
-    }
-
-    h4,
-    h5,
-    h6 {
-      margin-top: 0.625rem; // 10px
-      margin-bottom: 0.625rem; // 10px
-    }
-
-    p {
-      text-align: justify;
-      margin-bottom: 1.5rem;
-      line-height: 1.7rem;
-    }
-
-    ul {
-      margin-left: 1rem;
-
-      li {
-        line-height: 1.7rem;
-      }
-    }
+  @include mq($until: md) {
+    margin: 1rem;
+    padding: 1rem 0;
+    max-width: calc(100vw - 2rem);
   }
 }
 
+.hero h1 {
+  text-shadow: 1px 1px 0 var(--lighten-3);
+  position: absolute;
+  bottom: 0;
+
+  font-size: 3rem;
+  color: var(--primary-txt);
+
+  small {
+    display: block;
+    font-size: 0.6em;
+  }
+
+  @include mq($until: md) {
+    font-size: 2rem;
+  }
+  @include mq($until: sm) {
+    font-size: 1.5rem;
+  }
+}
+
+
+.content {
+
+  img {
+    max-width: 100%;
+  }
+
+  .centered-img {
+    text-align: center;
+    margin: var(--space-3) 0;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--primary);
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  h2,
+  h3 {
+    margin-top: 1.25rem; // 10px
+    margin-bottom: 0.625rem; // 10px
+  }
+
+  h4,
+  h5,
+  h6 {
+    margin-top: 0.625rem; // 10px
+    margin-bottom: 0.625rem; // 10px
+  }
+
+  p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    line-height: 1.7rem;
+  }
+
+  ul {
+    margin-left: 1rem;
+
+    li {
+      line-height: 1.7rem;
+    }
+  }
+}

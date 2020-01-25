@@ -8,7 +8,7 @@ menu:
 
 ---
 
-{{% jumbo img="/images/backgrounds/back-0.webp" imgLabel="DevFest Toulouse 2020" %}}
+{{% jumbo %}}
 
 ## Dates à venir...
 ### Centre de Congrès Pierre Baudis
@@ -25,7 +25,7 @@ menu:
 
 <!-- ... -->
 
-{{% home-info what="Participants:1000,Journées:2🎉,Conférences:70+,Tracks en parallèle:4" class="primary" %}}
+{{% home-info what="Participants:1000,Journées:2,Conférences:70+,Tracks en parallèle:4" class="primary" %}}
 ## Le DevFest Toulouse, c'est quoi ?
 
 Le DevFest, ou 'Developers Festival', est une conférence technique destinée aux développeurs. Elle s'adresse aussi bien aux étudiants qu'aux professionnels ou tout simplement aux curieux technophiles.

@@ -19,3 +19,29 @@
 @import "themes/devfest-theme-hugo/src/styles/pages/home";
 
 // Custom CSS
+.jumbo .jumbo-cover {
+  background-image: url("/images/backgrounds/back-0.webp");
+
+  @include mq($until: sm) {
+    background-image: url("/images/backgrounds/back-0-540.webp");
+  }
+  @include mq($until: md) {
+    background-image: url("/images/backgrounds/back-0-720.webp");
+  }
+  @include mq($until: lg) {
+    background-image: url("/images/backgrounds/back-0-960.webp");
+  }
+  @include mq($until: xl) {
+    background-image: url("/images/backgrounds/back-0-1140.webp");
+  }
+}
+
+div.number:nth-child(3) > strong:nth-child(1) {
+  position: relative;
+  &::before {
+    position: absolute;
+    right: -2ch;
+    content: '🎉';
+    font-size: 80%;
+  }
+}
