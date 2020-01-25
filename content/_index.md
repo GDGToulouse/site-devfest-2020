@@ -32,7 +32,7 @@ It is aimed at students, professionals or simply curious technophiles.
 {{% /home-info %}}
 
 
-{{< youtube-section link="AFhHrQIAw3g" title="Watch 2019 into" class="" >}}
+{{< youtube-section link="AFhHrQIAw3g" title="Watch 2019 intro" class="" >}}
 
 <!-- ... -->
 
