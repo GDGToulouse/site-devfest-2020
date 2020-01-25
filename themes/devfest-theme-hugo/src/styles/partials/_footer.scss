@@ -28,10 +28,9 @@ body > footer {
     & > div {
       display: flex;
       align-items: center;
-      margin-bottom: 1rem;
 
       ul.social-list {
-        font-size: 1.75em;
+        font-size: 1.5em;
         padding: 0;
         margin: 0;
         list-style: none;
@@ -80,7 +79,6 @@ body > footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: var(--space-4);
 
     section {
       margin: var(--space-2) var(--space-4);
@@ -108,12 +106,14 @@ body > footer {
         flex-direction: column;
         list-style: none;
         padding: 0;
-        margin: var(--space-3) 0;
+        margin: var(--space-1) 0;
         font-weight: 100;
-        font-size: 0.9rem;
 
         li {
-          margin: var(--space-1) 0;
+          margin: var(--space-2) 0;
+          a {
+            padding: var(--space-3) 0;
+          }
         }
       }
     }
@@ -124,7 +124,6 @@ body > footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: var(--space-4);
 
     @include mq($until: md) {
       flex-direction: column;
