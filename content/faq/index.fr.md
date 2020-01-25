@@ -61,11 +61,16 @@ Prenez la ligne <mark class="b">B</mark> puis descendez à l'arrêt _Compans-Caf
 
 ### Comment devenir Sponsor / Partenaire ?
 
+<--
 Le dossier de partenariat est disponible [ici](https://drive.google.com/open?id=1Uo1V4v3SHjl2q27SNkOyHkcuagKJmTU4).
+-->
+
+Nous sommes en train de constituer le dossier de partenariat...
+Si vous voulez plus d'information dès maintenant, vous pouvez nous contacter par [mail](mailto:contact@devfesttoulouse.fr)
 
 ## CFP
 
-Toutes les infos sur [blog post CFP](/fr/blog/cfp/)
+Toutes les infos sur [la page dédiée](https://speakers.devfesttoulouse.fr/)
 
 ## Billetterie
 

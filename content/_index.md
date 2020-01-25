@@ -9,7 +9,7 @@ menu:
 ---
 
 
-{{% jumbo img="/images/backgrounds/back-0.webp" imgLabel="DevFest Toulouse 2020" %}}
+{{% jumbo %}}
 
 ## Dates coming soon...
 ### Pierre Baudis congress center
@@ -24,15 +24,14 @@ menu:
 
 {{% /jumbo %}}
 
-{{% home-info what="Participants:1000,Days:2🎉,Sessions:70+,Parallel Tracks:4" class="primary" %}}
+{{% home-info what="Participants:1000,Days:2,Sessions:70+,Parallel Tracks:4" class="primary" %}}
 ## What is DevFest Toulouse?
 
 The DevFest, or 'Developers Festival', is a technical conference for developers. 
 It is aimed at students, professionals or simply curious technophiles.
 {{% /home-info %}}
 
-
-{{< youtube-section link="AFhHrQIAw3g" title="Watch 2019 into" class="" >}}
+{{< youtube-section link="AFhHrQIAw3g" title="Watch 2019 intro" class="" >}}
 
 <!-- ... -->
 
@@ -106,7 +105,7 @@ It is aimed at students, professionals or simply curious technophiles.
 
 ## The venue
 
-### Centre de Congrès Pierre Baudis
+### at Centre de Congrès Pierre Baudis
 
 The Centre de Congrès Pierre Baudis is a modern place of exchange,
 located on a privileged location,

@@ -1,0 +1,7 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $img := .Get "img" }}
+{{ $class := .Get "class" }}
+{{ $widths := .Get "widths" }}
+{{ $ext := default "jpg" (.Get "ext") }}
+
+{{ partial "picture" (dict "img" $img "class" $class "widths" $widths "ext" $ext) }}

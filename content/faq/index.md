@@ -61,11 +61,16 @@ Take the line <mark class="b">B</mark> then get off at the _Compans-Cafarelli_ s
 
 ### How to become a sponsor/partner?
 
+<!--
 The partnership file is currently available [here](https://drive.google.com/file/d/1td_9Cr1b2JZvv0bCpOCJNDsEWgVgEp2Y/view?usp=sharing).
+-->
+
+We are in the process of putting together the partnership file...
+If you want more information now, you can contact us by [mail](mailto:contact@devfesttoulouse.fr)
 
 ## CFP: Call for Paper
 
-All the information in the [CFP Blog post](/blog/cfp/)
+All the information in the [the dedicated page](https://speakers.devfesttoulouse.fr/)
 
 ## Ticketing
 

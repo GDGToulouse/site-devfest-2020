@@ -3,7 +3,7 @@ title: Pitchouns
 brief: Mercredi 02 Octobre après-midi
 fullTitle: DevFest Pitchouns
 type: kids
-image: /images/kids/cover.jpg
+image: /images/kids/cover
 
 menu:
   main:

@@ -1,8 +1,5 @@
-<picture class="photo">
-	<source srcset="{{ relURL (path.Join "images" "team" .key) }}.webp" type="image/webp">
-	<source srcset="{{ relURL (path.Join "images" "team" .photo) }}" type="image/jpeg">
-	<img src="{{ relURL (path.Join "images" "team" .photo) }}" alt="">
-</picture>
+{{ $photo := relURL (path.Join "images" "team" .key) }}
+{{ partial "picture" (dict "img" $photo "class" "photo" ) }}
 
 <div class="label">
 	<h3>{{ .title }}</h3>

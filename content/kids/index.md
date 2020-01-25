@@ -3,7 +3,7 @@ title: Kids
 fullTitle: DevFest Kids (aka Pitchouns)
 brief: Only for french speaking kids
 type: kids
-image: /images/kids/cover.jpg
+image: /images/kids/cover
 
 menu:
   main:

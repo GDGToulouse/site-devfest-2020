@@ -19,7 +19,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 0.62.2
+          hugo-version: 0.63.1
 
       - name: Checkout
         uses: actions/checkout@v2
@@ -27,26 +27,35 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Generate Compressed images
+        run: npm run build:images
+
+      - name: Generate SVG icons
+        run: npm run build:icons
+
+      - name: Generate pages CSS
+        run: npm run build:styles
+
       - name: Build Site
         run: hugo --baseURL https://2020.devfesttoulouse.fr/
 
-#      - name: Generate schedule in PDF
-#        run: node tools/pdf.js
+      #      - name: Generate schedule in PDF
+      #        run: node tools/pdf.js
 
       - name: Generate PWA service worker
-        run: node tools/service-worker.js
+        run: npm run build:service-worker
 
-      - name: Optimize HTML
-        run: node tools/minify.js
+      - name: Optimize HTML / JS / CSS
+        run: npm run build:minify
 
-      - name: Configure to Sandbox
+      - name: Configure to PROD
         uses: w9jds/firebase-action@v1.2.0
         with:
           args: use prod
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_PROD_TOKEN }}
 
-      - name: Publish to Sandbox
+      - name: Publish to PROD
         uses: w9jds/firebase-action@v1.2.0
         with:
           args: deploy --only hosting
