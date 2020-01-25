@@ -17,26 +17,19 @@ const imagesFiles = [
   {files: `static/images/album/**/*.*`, format: 'webp'},
   {files: `static/images/backgrounds/*.*`, format: 'webp'},
   {files: `static/images/kids/*.*`, format: 'webp'},
-  {files: `static/images/logos/*_text*.*`, width: 640, format: 'png'},
-  {files: `static/images/partners/**/*.*`, height: 180, format: 'webp'},
-  {files: `static/images/team/*.*`, width: 150, format: 'webp'},
+  {files: `static/images/logos/*_text*.*`, opt: {width: 640}, format: 'png'},
+  {files: `static/images/partners/**/*.*`, opt: {height: 180}, format: 'webp'},
+  {files: `static/images/partners/**/*.svg`, format: 'png'},
+  {files: `static/images/partners/**/*.jpg`, format: 'png'},
+  {files: `static/images/team/*.*`, opt: {width: 150}, format: 'webp'},
+  {files: `static/images/team/*.png`, format: 'jpg'},
   {files: `static/images/wtf/*.*`, format: 'webp'},
   {files: `static/images/*.jpg`, format: 'webp'}
 ];
 
-const computeOptions = ({file, width, height, format}) => {
-  if (width && height)
-    return {msg: `resize ${file} to ${width}x${height}`, resizeOpt: {width, height}};
-  else if (width)
-    return {msg: `resize ${file} to width ${width}`, resizeOpt: {width}};
-  else if (height)
-    return {msg: `resize ${file} to height ${height}`, resizeOpt: {height}};
-  else
-    return {msg: `convert ${file} to format ${format}`};
-};
 
-imagesFiles.forEach(({files, width, height, format}) => {
-  logger.info(`Deal with ${files}: format: ${format}, width: ${width}, height: ${height}`);
+imagesFiles.forEach(({files, opt, format}) => {
+  logger.info(`Deal with ${files}: format: ${format}, with ${opt ? JSON.stringify(opt) : ''}`);
   glob(files)
     .forEach(file => {
       const {dir, name, ext} = path.parse(file);
@@ -44,9 +37,9 @@ imagesFiles.forEach(({files, width, height, format}) => {
         logger.debug(`Skip ${file}, already at format ${format}`);
       } else {
         const output = path.format({dir, name, ext: '.' + format});
-        const {msg, resizeOpt} = computeOptions({file, width, height, format});
+        const msg = opt ? `resize ${file} with ${JSON.stringify(opt)}` : `convert ${file} to format ${format}`;
 
-        const src = resizeOpt ? sharp(file).resize(resizeOpt) : sharp(file);
+        const src = opt ? sharp(file).resize(opt) : sharp(file);
         src.toFile(output)
           .catch(failure(`Fail to ${msg}`))
           .then(() => logger.info(msg, '[OK]'));
@@ -99,7 +92,7 @@ glob(`static/images/album/**/*.jpg`)
 
 // Map
 baseWidths.forEach(width => {
-  const output = path.format({dir: 'static/images/', name: `map-${width}`, ext: `.webp`});
+  const output = path.format({dir: 'static/images', name: `map-${width}`, ext: `.webp`});
   sharp(`static/images/map.jpg`)
     .resize({width, height: 480, fit: 'cover'})
     .toFile(output)
