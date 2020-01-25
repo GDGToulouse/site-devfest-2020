@@ -1,4 +1,4 @@
-name: Deploy to sandbox
+name: Deploy to PROD
 
 on:
   push:
