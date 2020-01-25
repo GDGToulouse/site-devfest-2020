@@ -105,7 +105,7 @@ It is aimed at students, professionals or simply curious technophiles.
 
 ## The venue
 
-### Centre de Congrès Pierre Baudis
+### at Centre de Congrès Pierre Baudis
 
 The Centre de Congrès Pierre Baudis is a modern place of exchange,
 located on a privileged location,

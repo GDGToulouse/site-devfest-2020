@@ -1,4 +1,4 @@
-body > footer {
+body>footer {
   background-color: var(--footer-bg);
   color: var(--footer-fg);
   font-weight: 200;
@@ -25,7 +25,7 @@ body > footer {
       margin-right: var(--space-2);
     }
 
-    & > div {
+    &>div {
       display: flex;
       align-items: center;
 
@@ -50,7 +50,8 @@ body > footer {
       filter: grayscale(1);
       transition: filter var(--animation);
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         opacity: 1;
         filter: grayscale(0);
       }
@@ -67,6 +68,7 @@ body > footer {
     .email a {
       display: flex;
       align-items: center;
+
       .icon {
         width: 1em;
         height: 1em;
@@ -111,6 +113,7 @@ body > footer {
 
         li {
           margin: var(--space-2) 0;
+
           a {
             padding: var(--space-3) 0;
           }
@@ -128,7 +131,8 @@ body > footer {
     @include mq($until: md) {
       flex-direction: column;
       align-items: start;
-      > * {
+
+      >* {
         margin: var(--space-2) 0;
       }
     }
@@ -137,5 +141,11 @@ body > footer {
       height: 2rem;
       width: auto;
     }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .follow a.social {
+    filter: grayscale(0.75);
   }
 }

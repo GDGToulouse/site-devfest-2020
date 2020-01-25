@@ -37,9 +37,11 @@ Le DevFest, ou 'Developers Festival', est une conférence technique destinée au
 
 
 {{% home-speakers %}}
-## Conférenciers en vedette
 
 <!--
+
+## Conférenciers en vedette
+
 {{< button-link label="Proposer une présentation"
                 url="https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi"
                 icon="cfp" >}}
@@ -105,7 +107,7 @@ Le DevFest, ou 'Developers Festival', est une conférence technique destinée au
 
 ## Le lieu
 
-### Centre de Congrès Pierre Baudis
+### au centre de congrès Pierre Baudis
 
 Le Centre de Congrès Pierre Baudis est un lieu d'échanges moderne,
 situé sur un emplacement privilégié,
