@@ -76,6 +76,20 @@ imagesAltFiles.forEach(files => {
     });
 });
 
+// Background in JPG
+glob(`static/images/backgrounds/*.jpg`)
+  .forEach(file => {
+    const {dir, name, ext} = path.parse(file);
+    baseWidths.forEach(width => {
+      const output = path.format({dir, name: `${name}-${width}`, ext});
+      sharp(file)
+        .resize({width: width})
+        .toFile(output)
+        .catch(failure(`Fail to generate ${output}`))
+        .then(() => logger.info(`Generate ${output}`, '[OK]'));
+    });
+  });
+
 // Albums
 glob(`static/images/album/**/*.jpg`)
   .forEach(file => {
