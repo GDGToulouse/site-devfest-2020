@@ -31,6 +31,7 @@ body > footer {
       margin-bottom: 1rem;
 
       ul.social-list {
+        font-size: 1.75em;
         padding: 0;
         margin: 0;
         list-style: none;
@@ -40,6 +41,7 @@ body > footer {
         li {
           display: inline-block;
           padding: var(--space-2);
+          margin-right: var(--space-3);
         }
       }
     }
