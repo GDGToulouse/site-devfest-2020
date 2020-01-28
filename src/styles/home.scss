@@ -53,8 +53,9 @@
   }
 }
 
-  div.number:nth-child(3) > strong:nth-child(1) {
+div.number:nth-child(3) > strong:nth-child(1) {
   position: relative;
+
   &::before {
     position: absolute;
     right: -2ch;

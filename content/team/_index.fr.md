@@ -21,5 +21,5 @@ Pour rendre tout cela possible, une équipe de bénévoles sur-vitaminée s’ac
 <!-- ... -->
 
 {{% partners categories="communautes" %}}
-# Partners
+# Communautés impliquées
 {{% /partners %}}

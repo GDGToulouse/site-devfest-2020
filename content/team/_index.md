@@ -24,5 +24,5 @@ To make all this possible, an awesome team of volunteers is working behind the s
 <!-- ... -->
 
 {{% partners categories="communautes" %}}
-# Partners
+# Communities involved
 {{% /partners %}}
