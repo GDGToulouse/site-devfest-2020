@@ -32,7 +32,7 @@ Just run
 hugo server -D
 ```
 
-Notice that the `-D` flag is used to rendrer draft elements,
+Notice that the `-D` flag is used to render draft elements,
 you also can add the `-F` to build elements planed for future.
 
 More information [here](https://gohugo.io/commands/hugo_server/)
