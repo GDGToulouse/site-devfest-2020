@@ -17,6 +17,7 @@ const imagesFiles = [
   {files: `static/images/album/**/*.*`, format: 'webp'},
   {files: `static/images/backgrounds/*.*`, format: 'webp'},
   {files: `static/images/kids/*.*`, format: 'webp'},
+  {files: `static/images/konfetti/*.*`, format: 'webp'},
   {files: `static/images/logos/*_text*.*`, opt: {width: 640}, format: 'png'},
   {files: `static/images/partners/**/*.*`, opt: {height: 180}, format: 'webp'},
   {files: `static/images/partners/**/*.svg`, format: 'png'},
@@ -55,7 +56,8 @@ const imagesAltFiles = [
   `static/images/backgrounds/*.jpg`,
   `static/images/kids/*.jpg`,
   `static/images/wtf/*.jpg`,
-  `static/images/social-share.jpg`
+  `static/images/social-share.jpg`,
+  `static/images/konfetti/logo.jpg`
 ];
 
 imagesAltFiles.forEach(files => {

@@ -1,0 +1,3 @@
+{{ define "stylesheet" . }}
+<link rel="stylesheet" href="/styles/{{ .Type }}{{ if ne .Type "" }}-{{ end }}{{ .Kind }}.css" media="all">
+{{ end }}
