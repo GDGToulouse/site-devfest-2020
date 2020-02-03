@@ -1,4 +1,6 @@
-<div class="konfetti">
+{{ $_hugo_config := `{ "version": 1 }` }}
+
+<section class="konfetti">
 
 	{{ partial "picture" (dict "img" "/images/konfetti/logo" "class" "logo" "widths" (slice 540 720 960 1140)) }}
 
@@ -15,4 +17,5 @@
 		<img src="/images/konfetti/qr-ios.png" alt="">
 		<img src="/images/konfetti/app-store.png" alt="Google Play">
 	</div>
-</div>
+	
+</section>

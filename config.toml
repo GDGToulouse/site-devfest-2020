@@ -6,7 +6,6 @@ title = "Devfest Toulouse 2020"
 theme = "devfest-theme-hugo"
 
 # Params
-
 enableEmoji = true
 enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
