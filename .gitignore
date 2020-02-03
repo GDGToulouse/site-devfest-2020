@@ -6,6 +6,8 @@ node_modules/
 .vscode/
 yarn-error.log
 
+
+static/main.js
 static/schedule/schedule*.pdf
 *-1140.jpg
 *-960.jpg
