@@ -1,6 +1,7 @@
 const path = require('path');
 const {sync: glob} = require('glob');
 const sharp = require('sharp');
+const rimraf = require('rimraf');
 const {Logger, LogLevel, colorEmojiConfig} = require('plop-logger');
 
 Logger.config = colorEmojiConfig;
@@ -11,6 +12,18 @@ const failure = msg => err => {
   logger.error(msg);
   console.error(err);
 };
+
+const baseWidths = [1140, 960, 720, 540];
+
+// Cleanup previous images
+const imgs = baseWidths.flatMap(width =>
+  ([`static/images/**/*-${width}.jpg`, `static/images/**/*-${width}.webp`])
+);
+imgs.push(`static/images/*.webp`);
+imgs.forEach(files => {
+  logger.info(`Cleanup previous images`, files);
+  rimraf.sync(files);
+});
 
 // Resize and convert
 const imagesFiles = [
@@ -51,7 +64,6 @@ imagesFiles.forEach(({files, opt, format}) => {
 
 
 // Create alternative image in different resolutions
-const baseWidths = [1140, 960, 720, 540];
 const imagesAltFiles = [
   `static/images/backgrounds/*.jpg`,
   `static/images/kids/*.jpg`,
