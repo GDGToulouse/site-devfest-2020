@@ -100,7 +100,7 @@ Le DevFest, ou 'Developers Festival', est une conférence technique destinée au
 <!-- ... -->
 
 {{% home-location
-    image="/images/map"
+    image="/images/map.jpg"
     address="11 Espl. Compans-Caffarelli, 31000 Toulouse"
     latitude="43.6110956"
     longitude="1.4332799" %}}
@@ -117,7 +117,7 @@ situé sur un emplacement privilégié,
 
 <!-- ... -->
 
-{{% album images="/images/album/2019/725A8234,/images/album/2019/725A8597,/images/album/2019/725A8647,/images/album/2019/725A8674,/images/album/2019/725A8900,/images/album/2019/725A8937,/images/album/2019/725A9040,/images/album/2019/IMG_20191002_141354" %}}
+{{% album images="/images/album/2019/725A8234.jpg,/images/album/2019/725A8597.jpg,/images/album/2019/725A8647.jpg,/images/album/2019/725A8674.jpg,/images/album/2019/725A8900.jpg,/images/album/2019/725A8937.jpg,/images/album/2019/725A9040.jpg,/images/album/2019/IMG_20191002_141354.jpg" %}}
 
 ### Quelques photos du **DevFest Toulouse 2019**. 
 
