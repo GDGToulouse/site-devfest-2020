@@ -33,7 +33,7 @@ Pour rendre tout cela possible, une équipe de bénévoles sur-vitaminée s’ac
 
 ### Où et quand aura lieu le DevFest ?
 
-Le DevFest Toulouse 2020 aura lieu les **jeudi XX et vendredi XX** au [Centre de Congrés Pierre Baudis](https://goo.gl/maps/vDmHc8mFQtD2).
+Le DevFest Toulouse 2020 aura lieu les **jeudi 5 et vendredi 6 Novembre** au [Centre de Congrés Pierre Baudis](https://goo.gl/maps/vDmHc8mFQtD2).
 
 ### Comment s'y rendre ?
 

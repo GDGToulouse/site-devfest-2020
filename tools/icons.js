@@ -6,7 +6,7 @@ Logger.config = colorEmojiConfig;
 const logger = Logger.getLogger('icons');
 logger.level = LogLevel.All;
 
-let svgFiles = [`src/icons/*.svg`, `themes/devfest-theme-hugo/src/icons/*.svg`];
+let svgFiles = [`src/icons/*.svg`, `themes/devfest-theme-hugo-2020/src/icons/*.svg`];
 logger.info('SVG aggregation of', svgFiles);
 
 const data = svgFiles.flatMap(files => glob(files))

@@ -12,7 +12,7 @@ menu:
 draft: false
 ---
 
-Cette année le **DevFest Toulouse Pitchouns** revient !
+Cette année le **DevFest Toulouse Pitchouns** revient l'aprés-midi du **mercredi 4 novembre**!
 
 L'intérêt particulier de cet atelier ludique repose sur le plaisir d'un moment partagé entre les parents et les enfants, dans la découverte du code informatique et des activités créatives qui l'accompagnent. Cette expérimentation guidée de programmation visuelle permettra au tandem parent enfant de réaliser en pleine complicité sa propre application numérique.
 
@@ -54,7 +54,7 @@ A l’heure actuelle tout le monde parle de voitures autonomes et sans conducteu
 
 Ça te dit ?
 
-Alors, rendez-vous le Mercredi XX XX 2020 pour un super atelier au Centre des Congrès Pierre Baudis, à Toulouse.
+Alors, rendez-vous le Mercredi 04 novembre 2020 pour un super atelier au Centre des Congrès Pierre Baudis, à Toulouse.
 
 Apporte un ordinateur portable ainsi qu'une souris (si tu en as un) et ta bonne humeur. L’atelier sera suivi d’un goûter pour reprendre des forces et discuter du projet réalisé.
 
