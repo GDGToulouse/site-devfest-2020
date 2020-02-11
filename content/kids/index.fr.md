@@ -1,6 +1,6 @@
 ---
 title: Pitchouns
-brief: Mercredi 02 Octobre après-midi
+brief: Mercredi 04 Novembre après-midi
 fullTitle: DevFest Pitchouns
 type: kids
 image: /images/kids/cover
