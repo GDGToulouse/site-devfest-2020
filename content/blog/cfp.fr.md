@@ -2,6 +2,9 @@
 title: Call For Paper
 brief: The CFP process
 image: /images/blog/cfp.jpg
+imageInfo: Photo by israel palacio on Unsplash
+infoClass: dark
+toc: true
 date: 2020-02-10
 draft: false
 ---
