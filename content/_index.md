@@ -11,8 +11,13 @@ menu:
 
 {{% jumbo %}}
 
-## Dates coming soon...
+## 5th & 6th, November
 ### Pierre Baudis congress center
+
+Solve the 3 algorithms to try to win a 2-day pass!
+<a class="btn primary btn-lg" href="https://t.co/d7qqnZleyp?amp=1">
+    Register now!
+</a>
 
 <!-- <a class="btn primary btn-lg" style="margin-top: 1em;" href="https://drive.google.com/file/d/1td_9Cr1b2JZvv0bCpOCJNDsEWgVgEp2Y/view?usp=sharing" target="_blank">Become a sponsor</a> -->
 
@@ -24,8 +29,13 @@ menu:
 
 {{% /jumbo %}}
 
+<!--
+{{< konfetti >}}
+-->
+
+
 {{% home-info what="Participants:1000,Days:2,Sessions:70+,Parallel Tracks:4" class="primary" %}}
-## What is DevFest Toulouse?
+## What is DevFest Toulouse?    
 
 The DevFest, or 'Developers Festival', is a technical conference for developers. 
 It is aimed at students, professionals or simply curious technophiles.
@@ -98,7 +108,7 @@ It is aimed at students, professionals or simply curious technophiles.
 <!-- ... -->
 
 {{% home-location
-    image="/images/map"
+    image="/images/map.jpg"
     address="11 Espl. Compans Caffarelli, 31000 Toulouse"
     latitude="43.6110956"
     longitude="1.4332799" %}}
@@ -115,7 +125,7 @@ in the immediate vicinity of the centre of Toulouse and in a green environment.
 
 <!-- ... -->
 
-{{% album images="/images/album/2019/725A8234,/images/album/2019/725A8597,/images/album/2019/725A8647,/images/album/2019/725A8674,/images/album/2019/725A8900,/images/album/2019/725A8937,/images/album/2019/725A9040,/images/album/2019/IMG_20191002_141354" %}}
+{{% album images="/images/album/2019/725A8234.jpg,/images/album/2019/725A8597.jpg,/images/album/2019/725A8647.jpg,/images/album/2019/725A8674.jpg,/images/album/2019/725A8900.jpg,/images/album/2019/725A8937.jpg,/images/album/2019/725A9040.jpg,/images/album/2019/IMG_20191002_141354.jpg" %}}
 
 ### Some pictures of the **DevFest Toulouse 2019**.
 

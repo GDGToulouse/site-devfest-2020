@@ -1,6 +1,7 @@
 const path = require('path');
 const {sync: glob} = require('glob');
 const sharp = require('sharp');
+const rimraf = require('rimraf');
 const {Logger, LogLevel, colorEmojiConfig} = require('plop-logger');
 
 Logger.config = colorEmojiConfig;
@@ -12,11 +13,24 @@ const failure = msg => err => {
   console.error(err);
 };
 
+const baseWidths = [1140, 960, 720, 540];
+
+// Cleanup previous images
+const imgs = baseWidths.flatMap(width =>
+  ([`static/images/**/*-${width}.jpg`, `static/images/**/*-${width}.webp`])
+);
+imgs.push(`static/images/*.webp`);
+imgs.forEach(files => {
+  logger.info(`Cleanup previous images`, files);
+  rimraf.sync(files);
+});
+
 // Resize and convert
 const imagesFiles = [
   {files: `static/images/album/**/*.*`, format: 'webp'},
   {files: `static/images/backgrounds/*.*`, format: 'webp'},
   {files: `static/images/kids/*.*`, format: 'webp'},
+  {files: `static/images/konfetti/*.*`, format: 'webp'},
   {files: `static/images/logos/*_text*.*`, opt: {width: 640}, format: 'png'},
   {files: `static/images/partners/**/*.*`, opt: {height: 180}, format: 'webp'},
   {files: `static/images/partners/**/*.svg`, format: 'png'},
@@ -50,12 +64,12 @@ imagesFiles.forEach(({files, opt, format}) => {
 
 
 // Create alternative image in different resolutions
-const baseWidths = [1140, 960, 720, 540];
 const imagesAltFiles = [
   `static/images/backgrounds/*.jpg`,
   `static/images/kids/*.jpg`,
   `static/images/wtf/*.jpg`,
-  `static/images/social-share.jpg`
+  `static/images/social-share.jpg`,
+  `static/images/konfetti/logo.jpg`
 ];
 
 imagesAltFiles.forEach(files => {

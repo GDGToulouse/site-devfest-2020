@@ -33,7 +33,7 @@ To make all this possible, an over-vitaminated team of volunteers is working beh
 
 ### Where and when will DevFest take place?
 
-Le DevFest Toulouse 2020 takes place on **Thursday and Friday, XX XX & XX** at the [Congress Centre Pierre Baudis](https://goo.gl/maps/vDmHc8mFQtD2).
+Le DevFest Toulouse 2020 takes place on **Thursday and Friday, 5 & 6 Novembre** at the [Congress Centre Pierre Baudis](https://goo.gl/maps/vDmHc8mFQtD2).
 
 ### How to get there?
 

@@ -3,10 +3,9 @@ languageCode = "en"
 title = "Devfest Toulouse 2020"
 
 # Theme
-theme = "devfest-theme-hugo"
+theme = "devfest-theme-hugo-2020"
 
 # Params
-
 enableEmoji = true
 enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
@@ -43,6 +42,9 @@ googleAnalytics = "UA-37717223-9"
 #    url = "https://jobs.devfesttoulouse.fr/"
 #    weight = 200
 #    external = true
+
+[markup.goldmark.renderer]
+unsafe= true
 
 [[menu.main]]
     identifier = "cfp"
