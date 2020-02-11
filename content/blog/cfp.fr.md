@@ -1,8 +1,8 @@
 ---
-title: Call For Paper
-brief: The CFP process
+title: Call For Paper - Appel à contributions
+brief: Le processus du CFP
 image: /images/blog/cfp.jpg
-imageInfo: Photo by israel palacio on Unsplash
+imageInfo: Photo de israel palacio sur Unsplash
 infoClass: dark
 toc: true
 date: 2020-02-10
