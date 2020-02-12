@@ -29,6 +29,7 @@ imgs.forEach(files => {
 const imagesFiles = [
   {files: `static/images/album/**/*.*`, format: 'webp'},
   {files: `static/images/backgrounds/*.*`, format: 'webp'},
+  {files: `static/images/blog/*.*`, format: 'webp'},
   {files: `static/images/kids/*.*`, format: 'webp'},
   {files: `static/images/konfetti/*.*`, format: 'webp'},
   {files: `static/images/logos/*_text*.*`, opt: {width: 640}, format: 'png'},
@@ -103,6 +104,30 @@ glob(`static/images/backgrounds/*.jpg`)
         .then(() => logger.info(`Generate ${output}`, '[OK]'));
     });
   });
+
+glob(`static/images/blog/*.*`)
+.forEach(file => {
+  const ext = '.webp';
+  const {dir, name, ext: baseExt} = path.parse(file);
+  baseWidths.forEach(width => {
+    const output = path.format({dir, name: `${name}-${width}`, ext});
+    sharp(file)
+      .resize({width: width})
+      .toFile(output)
+      .catch(failure(`Fail to generate ${output}`))
+      .then(() => logger.info(`Generate ${output}`, '[OK]'));
+  });
+  
+    [ext, baseExt].forEach (ext => {
+      const output = path.format({dir, name: `${name}-mini`, ext});
+      sharp(file)
+        .resize({width: 256})
+        .toFile(output)
+        .catch(failure(`Fail to generate ${output}`))
+        .then(() => logger.info(`Generate ${output}`, '[OK]'));
+    });
+
+});
 
 // Albums
 glob(`static/images/album/**/*.jpg`)
