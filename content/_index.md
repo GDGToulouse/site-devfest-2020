@@ -8,16 +8,10 @@ menu:
 
 ---
 
-
 {{% jumbo %}}
 
 ## 5th & 6th, November
 ### Pierre Baudis congress center
-
-Solve the 3 algorithms to try to win a 2-day pass!
-<a class="btn primary btn-lg" href="https://t.co/d7qqnZleyp?amp=1">
-    Register now!
-</a>
 
 <!-- <a class="btn primary btn-lg" style="margin-top: 1em;" href="https://drive.google.com/file/d/1td_9Cr1b2JZvv0bCpOCJNDsEWgVgEp2Y/view?usp=sharing" target="_blank">Become a sponsor</a> -->
 
