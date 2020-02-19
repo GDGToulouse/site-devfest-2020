@@ -13,11 +13,6 @@ menu:
 ## les 5 et 6 novembre
 ### Centre de Congrès Pierre Baudis
 
-Résolvez les 3 algorithmes pour tenter de gagner un pass 2 jours !
-<a class="btn primary btn-lg" href="https://t.co/d7qqnZleyp?amp=1">
-    Inscrivez-vous
-</a>
-
 <!-- <a class="btn primary btn-lg" style="margin-top: 1em;" href="https://drive.google.com/open?id=1Uo1V4v3SHjl2q27SNkOyHkcuagKJmTU4" target="_blank">Devenez Partenaire 🇫🇷</a> -->
 
 <!--
