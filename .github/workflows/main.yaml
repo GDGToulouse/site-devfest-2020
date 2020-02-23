@@ -1,0 +1,83 @@
+name: deploy
+
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # SETUP
+
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 0.65.3
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Checkout submodules
+        shell: bash
+        run: |
+          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+          git submodule sync --recursive
+          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+
+      # BUILD
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Compressed images
+        run: npm run build:images
+
+      - name: Generate SVG icons
+        run: npm run build:icons
+
+      - name: Generate pages CSS
+        run: npm run build:styles
+
+      - name: Build Site
+        # TODO passer à https://devfest.gdgnantes.com/
+        run: hugo --baseURL https://${{ steps.get_version.outputs.VERSION }}-dot-devfestnantes2020.appspot.com/
+
+      - name: Generate PWA service worker
+        run: npm run build:service-worker
+
+      - name: Optimize HTML / JS / CSS
+        run: npm run build:minify
+
+      - name: Optimize HTML / JS / CSS
+        run: cp .appengine/app.yaml public/
+
+      # DEPLOY
+
+      - name: Livraison ${{ steps.get_version.outputs.VERSION }}
+        uses: actions-hub/gcloud@master
+        env:
+          PROJECT_ID: devfestnantes2020
+          APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+          CLI: gcloud
+        with:
+          args: app deploy --version ${{ steps.get_version.outputs.VERSION }} --quiet public/app.yaml --no-promote
+
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2.0.0
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_TITLE: Déploiement réussi
+          SLACK_MESSAGE: Version ${{ steps.get_version.outputs.VERSION }} https://${{ steps.get_version.outputs.VERSION }}-dot-devfestnantes2020.appspot.com/
+          SLACK_ICON: https://github.com/fluidicon.png
+          SLACK_USERNAME: Github Actions

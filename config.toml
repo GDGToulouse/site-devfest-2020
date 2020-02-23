@@ -1,34 +1,34 @@
-baseURL = "https://sandbox-devfesttoulouse.firebaseapp.com/"
+baseURL = "https://devfest2020.gdgnantes.com/"
 languageCode = "en"
-title = "Devfest Toulouse 2020"
+title = "Devfest Nantes 2020"
 
 # Theme
-theme = "devfest-theme-hugo-2020"
+theme = "devfest-theme-hugo"
 
 # Params
 enableEmoji = true
 enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
 
-googleAnalytics = "UA-37717223-9"
+googleAnalytics = "UA-37717223-9" # TODO changer code analytics
 
 [params]
-    title = "DevFest Toulouse 2020"
-    date = "2020-11-05"
+    title = "DevFest Nantes 2020"
+    date = "2020-10-15 & 2020-10-16"
     description = "The DevFest, or 'Developers Festival', is a technical conference for developers. It is aimed at students, professionals or simply curious technophiles."
     images = ["/images/social-share.jpg"]
-    email = "contact@devfesttoulouse.fr"
+    email = "bureau@devfestnantes.com"
     keywords = "event, gdg, gde, devfest, google, programming, android, chrome, developers, web, cloud, androiddev"
-    copyright = "We :heart:️ chocolatines"
-    cfpUrl = "https://conference-hall.io/public/event/4fkj9Dwj0L0sikzYCtgL"
-    subscriptionUrl = "http://eepurl.com/dps1j5"
+    copyright = "Organized with ❤️ by GDG Nantes."
+    cfpUrl = "https://conference-hall.io/public/event/4fkj9Dwj0L0sikzYCtgL" # TODO changer le lien
+    subscriptionUrl = "https://gdgnantes.us9.list-manage.com/subscribe/post?u=b44affc3cdfd00b20bcae502c&amp;id=e0e7ceee5d" # TODO changer le lien
     appleTouchIcon = "/apple-icon.png"
     favicon32 = "/favicon-32x32.png"
     favicon16 = "/favicon-16x16.png"
     manifest = "/manifest.json"
     safariPinnedTab = "/safari-pinned-tab.svg"
     themeColor = "#673ab7"
-    googleWebmasterKey = "BcIJYWDHoblML5DO66_b1BGBne9J_7Oq3GjC5SDCKK8"
+    googleWebmasterKey = "BcIJYWDHoblML5DO66_b1BGBne9J_7Oq3GjC5SDCKK" # TODO trouver l'intérêt et la clé
 
 [params.logos]
     jumbo = "/images/logos/devfest_color_text.svg"
@@ -49,7 +49,7 @@ unsafe= true
 [[menu.main]]
     identifier = "cfp"
     name = "CFP"
-    url = "https://speakers.devfesttoulouse.fr/"
+    url = "https://speakers.devfesttoulouse.fr/" # TODO lien vers le CFP
     weight = 190
     external = true
 
@@ -57,10 +57,12 @@ unsafe= true
 [languages.en]
     weight = 1
     languageName = "gb"
+    languageCode = "en" # TODO utile ?
 
 [languages.fr]
     weight = 2
     languageName = "fr"
+    languageCode = "fr" # TODO utile ?
 
 [languages.fr.params]
     description = "Le DevFest, ou 'Developers Festival', est une conférence technique destinée aux développeurs. Elle s'adresse aussi bien aux étudiants, aux professionnels ou tout simplement aux curieux technophiles."
@@ -74,8 +76,8 @@ unsafe= true
   [privacy.googleAnalytics]
     anonymizeIP = false
     disable = false
-    respectDoNotTrack = false
-    useSessionStorage = false
+    respectDoNotTrack = true
+    useSessionStorage = true
   [privacy.instagram]
     disable = true
     simple = false

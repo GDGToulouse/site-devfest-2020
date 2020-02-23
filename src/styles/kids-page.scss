@@ -1,17 +1,17 @@
-@import "themes/devfest-theme-hugo-2020/src/styles/root";
-@import "themes/devfest-theme-hugo-2020/src/styles/variables";
+@import "themes/devfest-theme-hugo/src/styles/root";
+@import "themes/devfest-theme-hugo/src/styles/variables";
 @import "node_modules/sass-mq/mq";
 
-@import "themes/devfest-theme-hugo-2020/src/styles/partials/base";
-@import "themes/devfest-theme-hugo-2020/src/styles/partials/main";
-@import "themes/devfest-theme-hugo-2020/src/styles/partials/buttons";
-@import "themes/devfest-theme-hugo-2020/src/styles/partials/icons";
-@import "themes/devfest-theme-hugo-2020/src/styles/partials/header";
-@import "themes/devfest-theme-hugo-2020/src/styles/partials/footer";
-@import "themes/devfest-theme-hugo-2020/src/styles/partials/socials";
+@import "themes/devfest-theme-hugo/src/styles/partials/base";
+@import "themes/devfest-theme-hugo/src/styles/partials/main";
+@import "themes/devfest-theme-hugo/src/styles/partials/buttons";
+@import "themes/devfest-theme-hugo/src/styles/partials/icons";
+@import "themes/devfest-theme-hugo/src/styles/partials/header";
+@import "themes/devfest-theme-hugo/src/styles/partials/footer";
+@import "themes/devfest-theme-hugo/src/styles/partials/socials";
 
-@import "themes/devfest-theme-hugo-2020/src/styles/partials/hero";
-@import "themes/devfest-theme-hugo-2020/src/styles/partials/table_of_contents";
+@import "themes/devfest-theme-hugo/src/styles/partials/hero";
+@import "themes/devfest-theme-hugo/src/styles/partials/table_of_contents";
 
 // Custom CSS
 
@@ -22,7 +22,8 @@
 
 .img {
   overflow: hidden;
-  & > * {
+
+  &>* {
     min-width: 100%;
     min-height: 100%;
     max-height: 45vmin;
@@ -32,7 +33,8 @@
 
 }
 
-.hero h1, .content {
+.hero h1,
+.content {
   margin: 0 auto;
   padding: 2rem var(--container-margin);
 
@@ -59,6 +61,7 @@
   @include mq($until: md) {
     font-size: 2rem;
   }
+
   @include mq($until: sm) {
     font-size: 1.5rem;
   }
