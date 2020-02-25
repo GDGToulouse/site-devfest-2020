@@ -59,7 +59,7 @@ jobs:
       - name: Optimize HTML / JS / CSS
         run: npm run build:minify
 
-      - name: Optimize HTML / JS / CSS
+      - name: Déplacement du app.yaml de appengine
         run: cp .appengine/app.yaml public/
 
       # DEPLOY

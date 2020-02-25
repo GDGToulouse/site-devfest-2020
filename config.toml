@@ -31,9 +31,9 @@ googleAnalytics = "UA-37717223-9" # TODO changer code analytics
     googleWebmasterKey = "BcIJYWDHoblML5DO66_b1BGBne9J_7Oq3GjC5SDCKK" # TODO trouver l'intérêt et la clé
 
 [params.logos]
-    jumbo = "/images/logos/devfest_color_text.svg"
-    header = "/images/logos/devfest_color_text.svg"
-    footer = "/images/logos/devfest_gray_text.svg"
+    jumbo = "/images/logos/devfest_color_text_white.svg"
+    header = "/images/logos/devfest_color_text_white.svg"
+    footer = "/images/logos/devfest_color_text_gray.svg"
 
 [menu]
 #[[menu.main]]
