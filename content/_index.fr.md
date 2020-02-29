@@ -21,9 +21,9 @@ menu:
 Le DevFest, ou 'Developer Festival', est une conférence technique destinée aux développeurs. Elle s'adresse aussi bien aux étudiants, aux professionnels ou tout simplement aux curieux technophiles.
 {{% /home-info %}}
 
-{{< youtube-section link="o7BzM-yAz_M" title="Teaser 2019" class="primarydarker" >}}
+{{< youtube-section link="wz0Cuok0FIc" title="Aftermovie 2019" class="primarydarker" >}}
 
-<!-- ... -->
+<!--
 
 {{% home-speakers %}}
 
@@ -109,9 +109,11 @@ Située en plein cœur de ville, La Cité des Congrès de Nantes propose pour le
 
 {{% album images="/images/album/2018/2018_1.jpg,/images/album/2018/2018_2.jpg,/images/album/2018/2018_3.jpg,/images/album/2018/2018_4.jpg,/images/album/2018/2018_5.jpg,/images/album/2018/2018_6.jpg,/images/album/2018/2018_7.jpg,/images/album/2018/2018_8.jpg" %}}
 
-## Quelques photos du **DevFest Nantes 2018** avec le thème de l'**espace**.
+<!-- TODO mettre les photos 2019 -->
 
-<a class="btn primary" target="_blank" rel="noopener" href="https://www.flickr.com/photos/gdgnantes/albums/72157702575476534">
+## Quelques photos du **DevFest Nantes 2019** avec le thème du **Rock** 🎸.
+
+<a class="btn primary" target="_blank" rel="noopener" href="https://photos.app.goo.gl/1WWs9JJJtjHWhBiG6"> 
     Voir toutes les photos
     {{% icon "right" %}}
 </a>

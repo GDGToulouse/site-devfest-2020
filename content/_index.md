@@ -22,9 +22,9 @@ The DevFest, or 'Developer Festival', is a technical conference for developers.
 It is aimed at students, professionals or simply curious techies.
 {{% /home-info %}}
 
-{{< youtube-section link="o7BzM-yAz_M" title="Teaser 2019" class="primarydarker" >}}
+{{< youtube-section link="wz0Cuok0FIc" title="Aftermovie 2019" class="primarydarker" >}}
 
-<!-- ... -->
+<!--
 
 {{% home-speakers %}}
 
@@ -110,9 +110,9 @@ Located in the center of Nantes, the event takes place in the "Cité des Congrè
 
 {{% album images="/images/album/2018/2018_1.jpg,/images/album/2018/2018_2.jpg,/images/album/2018/2018_3.jpg,/images/album/2018/2018_4.jpg,/images/album/2018/2018_5.jpg,/images/album/2018/2018_6.jpg,/images/album/2018/2018_7.jpg,/images/album/2018/2018_8.jpg" %}}
 
-## Some pictures of the **DevFest Nantes 2018** with the **space** theme.
+## Some pictures of the **DevFest Nantes 2019** with the **Rock** theme 🎸.
 
-<a class="btn primary" target="_blank" rel="noopener" href="https://www.flickr.com/photos/gdgnantes/albums/72157702575476534">
+<a class="btn primary" target="_blank" rel="noopener" href="https://photos.app.goo.gl/1WWs9JJJtjHWhBiG6">
     See all photos
     {{% icon "right" %}}
 </a>
