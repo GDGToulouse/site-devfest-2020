@@ -1,7 +1,7 @@
 ---
 title: Status de l'édition 2020
 brief: Report lancement sponsors, CFP et billetterie
-image: /images/blog/corona-1.jpg
+image: /images/blog/corona-1-fr.jpg
 infoClass: light
 toc: false
 date: 2020-03-16
