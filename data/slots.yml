@@ -196,7 +196,7 @@
   duration: 120
   row:
     start: 23
-    end: 34
+    end: 34    
 - key: pause-4-day-2
   start: '16:00'
   duration: 20
