@@ -10,21 +10,22 @@ draft: false
 {{% hero img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Nantes 2020"%}}
 {{% /hero %}}
 
-{{% default-section class="citymap white" %}}
+{{% default-section class="secondary attending citymap white" %}}
 
 ## Indoor map
 
-{{% centered-img src="/images/indoor_map.webp" %}}
+{{% centered-img src="/images/indoor_map.png" %}}
 
 {{% /default-section %}}
 
-{{% default-section class="location-title tertiary" %}}
+{{% default-section class="attending location-title tertiary" %}}
 
 ## Where is the event?
 
 {{% /default-section %}}
 
 {{% home-location
+    class="attending"
     image="/images/map2.jpg"
     address="5 rue de Valmy, 44000 Nantes"
     latitude="47.2129658"
@@ -34,7 +35,7 @@ draft: false
 
 {{% /home-location %}}
 
-{{% default-section class="hours primarydarker" %}}
+{{% default-section class="attending hours primarydarker" %}}
 
 ## Opening hours
 
@@ -42,7 +43,7 @@ The doors of the Cité des Congrès will open from 8am to 8pm on 21st October an
 
 {{% /default-section %}}
 
-{{% default-section class="access tertiary" %}}
+{{% default-section class="attending access tertiary" %}}
 
 ## Accessibility
 
@@ -52,7 +53,7 @@ In La Cité des Congrès all areas are accessible for wheelchair users.
 
 {{% /default-section %}}
 
-{{% default-section class="travel primarydarker" %}}
+{{% default-section class="attending travel primarydarker" %}}
 
 ## How to get there?
 

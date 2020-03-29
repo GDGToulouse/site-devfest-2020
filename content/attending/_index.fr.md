@@ -10,7 +10,7 @@ draft: false
 {{% hero img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Nantes 2020"%}}
 {{% /hero %}}
 
-{{% default-section class="citymap white" %}}
+{{% default-section class="secondary attending citymap white" %}}
 
 ## Plan des salles
 
@@ -18,13 +18,14 @@ draft: false
 
 {{% /default-section %}}
 
-{{% default-section class="location-title tertiary" %}}
+{{% default-section class="attending location-title tertiary" %}}
 
 ## Où se trouve l'événement ?
 
 {{% /default-section %}}
 
 {{% home-location
+    class="attending"
     image="/images/map2.jpg"
     address="5 rue de Valmy, 44000 Nantes"
     latitude="47.2129658"
@@ -34,7 +35,7 @@ draft: false
 
 {{% /home-location %}}
 
-{{% default-section class="hours primarydarker" %}}
+{{% default-section class="attending hours primarydarker" %}}
 
 ## Horaires d'ouverture
 
@@ -42,7 +43,7 @@ Les portes de la Cité des Congrès ouvriront de 8h00 à 20h00 le lundi 21 Octob
 
 {{% /default-section %}}
 
-{{% default-section class="access tertiary" %}}
+{{% default-section class="attending access tertiary" %}}
 
 ## Accessibilité
 
@@ -52,7 +53,7 @@ Le GDG Nantes s'efforce de rendre cet événement ouvert et accessible à tous, 
 
 {{% /default-section %}}
 
-{{% default-section class="travel primarydarker" %}}
+{{% default-section class="attending travel primarydarker" %}}
 
 ## Comment s'y rendre ?
 

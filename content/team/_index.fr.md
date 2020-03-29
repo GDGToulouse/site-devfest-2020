@@ -9,6 +9,9 @@ draft: false
 ---
 
 {{% hero img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Nantes 2019"%}}
+{{% /hero %}}
+
+{{% default-section class="tertiary" %}}
 
 ## Le DevFest Nantes est un événement organisé par le GDG Nantes.
 
@@ -25,7 +28,8 @@ L’objectif du GDG Nantes, association loi 1901 créée en 2011, est d’organi
 - Des retransmissions vidéo d'événements majeurs : conférences US, keynotes
 
 Pour rendre tout cela possible, une équipe de bénévoles sur-vitaminée s’active en coulisse.
-{{% /hero %}}
+
+{{% /default-section %}}
 
 <!-- ... -->
 
