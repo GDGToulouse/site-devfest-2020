@@ -1,0 +1,5 @@
+<link rel="stylesheet" href="/theme.css" media="all">
+{{ $customCSS := printf "/styles/%s-%s.css" .Type .Kind }}
+{{ if (fileExists (path.Join "/static" $customCSS)) -}}
+<link rel="stylesheet" href="{{ $customCSS }}" media="all">
+{{- end }}

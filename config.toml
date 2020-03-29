@@ -32,7 +32,7 @@ googleAnalytics = "UA-37717223-9" # TODO changer code analytics
 
 [params.logos]
     jumbo = "/images/logos/devfest_color_text_white.svg"
-    header = "/images/logos/devfest_color_text_white.svg"
+    header = "/images/logos/devfest_color_text_white_white.svg"
     footer = "/images/logos/devfest_color_text_gray.svg"
 
 [menu]

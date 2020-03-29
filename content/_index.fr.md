@@ -85,13 +85,14 @@ Le DevFest, ou 'Developer Festival', est une conférence technique destinée aux
 
 <!-- ... -->
 
-{{% home-subscribe class="primary" %}}
+{{% home-subscribe class="secondary orange"%}}
 
 ## Soyez notifié des dernières informations !
 
 {{% /home-subscribe %}}
 
 {{% home-location
+    class="primary"
     image="/images/map.jpg"
     address="5 rue de Valmy, 44000 Nantes"
     latitude="47.2129658"
@@ -122,7 +123,7 @@ Située en plein cœur de ville, La Cité des Congrès de Nantes propose pour le
 
 <!-- ... -->
 
-{{% partners categories="platinium" %}}
+{{% partners categories="platinium" class="secondary orange"  %}}
 
 ## Partenaires
 

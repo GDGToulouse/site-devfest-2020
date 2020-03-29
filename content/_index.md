@@ -86,13 +86,14 @@ It is aimed at students, professionals or simply curious techies.
 
 <!-- ... -->
 
-{{% home-subscribe class="primary" %}}
+{{% home-subscribe class="secondary orange" %}}
 
 ## Get notified about conference updates
 
 {{% /home-subscribe %}}
 
 {{% home-location
+    class="primary"
     image="/images/map.jpg"
     address="5 rue de Valmy, 44000 Nantes"
     latitude="47.2129658"
@@ -121,7 +122,7 @@ Located in the center of Nantes, the event takes place in the "Cité des Congrè
 
 <!-- ... -->
 
-{{% partners categories="platinium" %}}
+{{% partners categories="platinium" class="secondary orange" %}}
 
 ## Partners
 
