@@ -112,7 +112,7 @@ Située en plein cœur de ville, La Cité des Congrès de Nantes propose pour le
 
 <!-- TODO mettre les photos 2019 -->
 
-## Quelques photos du **DevFest Nantes 2019** avec le thème du **Rock** 🎸.
+## Quelques photos du DevFest Nantes 2019 avec le thème du Rock 🎸.
 
 <a class="btn primary" target="_blank" rel="noopener" href="https://photos.app.goo.gl/1WWs9JJJtjHWhBiG6"> 
     Voir toutes les photos

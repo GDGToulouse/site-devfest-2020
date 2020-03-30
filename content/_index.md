@@ -111,7 +111,7 @@ Located in the center of Nantes, the event takes place in the "Cité des Congrè
 
 {{% album images="/images/album/2018/2018_1.jpg,/images/album/2018/2018_2.jpg,/images/album/2018/2018_3.jpg,/images/album/2018/2018_4.jpg,/images/album/2018/2018_5.jpg,/images/album/2018/2018_6.jpg,/images/album/2018/2018_7.jpg,/images/album/2018/2018_8.jpg" %}}
 
-## Some pictures of the **DevFest Nantes 2019** with the **Rock** theme 🎸.
+## Some pictures of the DevFest Nantes 2019 with the Rock theme 🎸.
 
 <a class="btn primary" target="_blank" rel="noopener" href="https://photos.app.goo.gl/1WWs9JJJtjHWhBiG6">
     See all photos
