@@ -11,13 +11,13 @@ draft: false
 Association loi 1901
 
 Siège social :
-37 rue Félix Lemoine, 44300 Nantes
+5 rue d'Alger, 44100 Nantes
 
 SIRET :
 81203357900010
 
-Président :
-Julien Landuré
+Présidente :
+Annabelle Koster
 
 ### Hébergement
 

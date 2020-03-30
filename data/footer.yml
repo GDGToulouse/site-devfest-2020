@@ -32,6 +32,9 @@ content:
 
   - title: footer_previous_edition
     links:
+      - name: DevFest Nantes 2019
+        url: https://devfest2019.gdgnantes.com/
+        newTab: true
       - name: DevFest Nantes 2018
         url: https://devfest2018.gdgnantes.com/
         newTab: true
