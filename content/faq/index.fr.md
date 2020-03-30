@@ -115,9 +115,7 @@ En tant que User Group, vous pouvez nous aider sur plusieurs aspects :
 
 ### Combien de temps dure le CFP ?
 
-<!-- TODO dates -->
-
-Le CFP ouvrira le 1er Mai 2020 et se terminera le 30 Juin à 23h59
+Le CFP ouvrira le 1er Avril 2020 et se terminera le 30 Juin à 23h59
 
 ### Ma présentation a été acceptée, dois-je payer mon entrée à la conférence ?
 

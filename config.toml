@@ -10,7 +10,7 @@ enableEmoji = true
 enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
 
-googleAnalytics = "UA-37717223-9" # TODO changer code analytics
+googleAnalytics = "UA-37717223-9"
 
 [params]
     title = "DevFest Nantes 2020"
@@ -57,12 +57,12 @@ unsafe= true
 [languages.en]
     weight = 1
     languageName = "gb"
-    languageCode = "en" # TODO utile ?
+    languageCode = "en"
 
 [languages.fr]
     weight = 2
     languageName = "fr"
-    languageCode = "fr" # TODO utile ?
+    languageCode = "fr"
 
 [languages.fr.params]
     description = "Le DevFest, ou 'Developers Festival', est une conférence technique destinée aux développeurs. Elle s'adresse aussi bien aux étudiants, aux professionnels ou tout simplement aux curieux technophiles."

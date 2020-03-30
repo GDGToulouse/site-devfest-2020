@@ -86,6 +86,4 @@ So this is an example of workflow:
 
 ### Publish
 
-<!-- TODO la publication sans pipeline github -->
-
 You could take a look at the `.github/workflows` file
