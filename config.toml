@@ -49,7 +49,7 @@ unsafe= true
 [[menu.main]]
     identifier = "cfp"
     name = "CFP"
-    url = "https://speakers.devfesttoulouse.fr/" # TODO lien vers le CFP
+    url = "https://conference-hall.io/public/event/tcsfaCc4Gg0sSSxdJZKO"
     weight = 190
     external = true
 
