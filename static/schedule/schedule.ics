@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PROID:-//Devfest/DevFest Toulouse 2020//FR
-X-WR-CALDESC:DevFest Toulouse 2020
-X-WR-CALNAME:DevFest Toulouse 2020
+PROID:-//Devfest/DevFest Nantes 2020//FR
+X-WR-CALDESC:DevFest Nantes 2020
+X-WR-CALNAME:DevFest Nantes 2020
 X-WR-TIMEZONE:Europe/Paris
 END:VCALENDAR
