@@ -60,11 +60,9 @@ Les codelabs se veulent plus informels et seront l'occasion de mettre les mains 
 
 Vous trouverez cette année des sujets autour du : Web, Mobile, IoT, Backend, Cloud, Big Data, Machine Learning, DevOps, Découverte ...
 
-### Comment s'inscrire et combien cela coûte-t-il ?
+<!-- ### Comment s'inscrire et combien cela coûte-t-il ?
 
-<!-- TODO dates billets -->
-
-L'inscription au DevFest Nantes peut se faire directement depuis le site actuel en cliquant sur le lien disponible sur la page d'accueil. L'entrée coûte 70€ pour le pass 2 jours jusqu'au 30 Juin 2020 puis 90€ passé cette date, et 20€ pour le tarif réduit.
+L'inscription au DevFest Nantes peut se faire directement depuis le site actuel en cliquant sur le lien disponible sur la page d'accueil. L'entrée coûte 70€ pour le pass 2 jours jusqu'au 30 Juin 2020 puis 90€ passé cette date, et 20€ pour le tarif réduit. -->
 
 ### Je n'ai pas pu venir, puis-je me faire rembourser ?
 

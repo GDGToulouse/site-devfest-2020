@@ -58,11 +58,9 @@ The Codelabs are more informal and will be an opportunity to put your hands (and
 
 This year you will find topics around the : Web, Mobile, IoT, Backend, Cloud, Big Data, Machine Learning, DevOps, Discovery ...
 
-### How to register and how much does it cost?
+<!-- ### How to register and how much does it cost?
 
-<!-- TODO  -->
-
-Registration for DevFest Nantes can be done directly from this site by clicking the link on the home page. Admission is € 78 for the 2-day pass until June 30th 2019 then € 99 past this date, and € 20 for the discounted rate.
+Registration for DevFest Nantes can be done directly from this site by clicking the link on the home page. Admission is € 78 for the 2-day pass until June 30th 2019 then € 99 past this date, and € 20 for the discounted rate. -->
 
 ### If I register and am not able to attend, can I get a refund?
 
@@ -105,9 +103,9 @@ As a User Group, you can help us in several aspects:
 
 ## CFP: Call for Paper
 
-### How long does the CFP?
+### How long does the CFP lasts?
 
-The Registration will open on April 1st 2019 and will close on June 30th 2019 at 23:59
+The Registration will open on April 1st 2020 and will close on June 30th 2020 at 23:59
 
 ### My presentation has been accepted, do I still need to buy an Entry ticket/ pass for the conference?
 
