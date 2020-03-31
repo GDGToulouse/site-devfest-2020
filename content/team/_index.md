@@ -3,8 +3,8 @@
 title: Team
 type: team
 menu:
-main:
-weight: 60
+  main:
+    weight: 60
 
 draft: false
 ---{{% hero img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Nantes 2020"%}}
