@@ -39,7 +39,7 @@ draft: false
 
 ## Opening hours
 
-The doors of the Cité des Congrès will open from 8am to 8pm on 21st October and from 8:30am to 7pm on 22nd October.
+The doors of the Cité des Congrès will open from 8am to 8pm on 15th October and from 8:30am to 7pm on 16th October.
 
 {{% /default-section %}}
 
