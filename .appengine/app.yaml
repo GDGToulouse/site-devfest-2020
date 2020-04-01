@@ -11,14 +11,14 @@ handlers:
     secure: always
     expiration: '0d 5m'
     http_headers:
-      Link: '<theme.js>; rel=preload; as=script, <theme.css>; rel=preload; as=style, </images/backgrounds/back-0.jpg>; rel=preload; as=image'
+      Link: '<theme.js>; rel=preload; as=script, <theme.css>; rel=preload; as=style, </images/backgrounds/back-neutre.jpg>; rel=preload; as=image'
   # index files
   - url: /(.+)/
     static_files: \1/index.html
     upload: (.+)/index.html
     secure: always
     http_headers:
-      Link: '</theme.js>; rel=preload; as=script, </theme.css>; rel=preload; as=style, </images/backgrounds/back-0.jpg>; rel=preload; as=image'
+      Link: '</theme.js>; rel=preload; as=script, </theme.css>; rel=preload; as=style, </images/backgrounds/back-neutre.jpg>; rel=preload; as=image'
   # - url: (.+)?/schedule
   #   static_files: schedule/index.html
   #   upload: schedule/index.html

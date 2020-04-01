@@ -6,7 +6,7 @@ menu:
     weight: -1
 ---
 
-{{% jumbo img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Nantes 2019" %}}
+{{% jumbo img="/images/backgrounds/back-neutre.jpg" imgLabel="DevFest Nantes 2020" %}}
 
 ## 15-16 Octobre 2020
 
