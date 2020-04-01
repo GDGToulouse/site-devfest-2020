@@ -5,5 +5,5 @@ category: platinium
 website: 'https://about.google/intl/en/'
 logo: /images/partners/google.svg
 socials: []
-draft: false
+draft: true
 ---

@@ -35,7 +35,7 @@ const imagesFiles = [
   // { files: `static/images/partners/**/*.svg`, format: 'png' },
   // { files: `static/images/partners/**/*.jpg`, format: 'png' },
   { files: `static/images/team/*.*`, opt: { width: 150 }, format: 'webp' },
-  { files: `static/images/team/*.png`, format: 'jpg' },
+  // { files: `static/images/team/*.png`, format: 'jpg' },
   { files: `static/images/wtf/*.*`, format: 'webp' },
   { files: `static/images/*.jpg`, format: 'webp' }
 ];
