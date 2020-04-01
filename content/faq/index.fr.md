@@ -3,7 +3,8 @@ title: FAQs
 menu:
   main:
     weight: 80
-
+hero:
+    img: back-5.jpg
 draft: false
 ---
 

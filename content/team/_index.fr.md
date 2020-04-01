@@ -8,7 +8,7 @@ menu:
 draft: false
 ---
 
-{{% hero img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Nantes 2019"%}}
+{{% hero img="/images/backgrounds/back-4.jpg" imgLabel="DevFest Nantes 2019"%}}
 {{% /hero %}}
 
 {{% default-section class="tertiary" %}}

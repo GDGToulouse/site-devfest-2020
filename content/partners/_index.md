@@ -7,10 +7,7 @@ menu:
 draft: false
 ---
 
-{{% hero img="/images/backgrounds/back-0.webp" imgLabel="DevFest Nantes 2019"%}}
-{{% /hero %}}
-
-{{% default-section class="tertiary" %}}
+{{% hero img="/images/backgrounds/back-2.jpg" imgLabel="DevFest Nantes 2020"%}}
 
 If you wish to become a sponsor, consult our sponsorship file and contact us at
 
@@ -18,7 +15,7 @@ If you wish to become a sponsor, consult our sponsorship file and contact us at
                 url="mailto:bureau@gdgnantes.com"
                 icon="email" >}}
 
-{{% /default-section %}}
+{{% /hero %}}
 
 <!-- Parteners list -->
 
