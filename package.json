@@ -1,7 +1,7 @@
 {
-  "name": "site-devfest-2019",
+  "name": "devfest2020",
   "version": "1.0.0",
-  "repository": "https://gitlab.com/devfest-toulouse/site-devfest-2019",
+  "repository": "https://github.com/GDG-Nantes/devfest2020",
   "author": "Igor Laborie <ilaborie@gmail.com>",
   "license": "MIT",
   "scripts": {

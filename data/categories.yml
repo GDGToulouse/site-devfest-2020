@@ -1,33 +1,31 @@
-- key: _big_data___ml___ai
-  name: "\U0001F916 Big Data / ML / AI"
-  id: 92dfb52d-077e-511f-9678-11b07206ed6c
-- key: _cloud___infra
-  name: "\U0001F329 Cloud / Infra"
-  id: ad11e961-6a06-53a3-81c2-a050e98e96ea
-- key: _iot
-  name: "\U0001F4DF IOT"
-  id: e2724ad2-0757-5456-a68a-e7d5cad32721
+- key: _bigdata___ai
+  name: "\U0001F916 BigData & AI"
+  id: c97cf20f-aba8-5bcd-9251-72f8c3c536c6
+- key: _cloud___devops
+  name: ☁️ Cloud & DevOps
+  id: 4fee2bdd-0cf4-5429-945c-42a422577ff5
+- key: _discovery
+  name: "\U0001F4A1 Discovery"
+  id: ef048dea-2728-54c5-9334-93d0cfe5d981
 - key: _languages
   name: "\U0001F4DD Languages"
   id: 3e79596d-6302-5601-a027-901bff9e2692
-- key: _method___tools
-  name: "\U0001F6E0 Method & Tools"
-  id: 4209a0d2-4419-5432-b3b1-f006ae3acadd
-- key: _native_mobile_apps
-  name: "\U0001F4F1 Native mobile apps"
-  id: 081ab838-0d3e-5843-a3e5-0ab8247853b5
+- key: _mobile___iot
+  name: "\U0001F4F1 Mobile & IoT"
+  id: dfa320e4-1f9b-53ee-8c98-3ef48ba81013
+- key: _security
+  name: "\U0001F431‍\U0001F4BB SECURITY"
+  id: 1e18bcfa-f91a-5ac0-b2f1-ee586837c398
+- key: _ux___ui
+  name: "\U0001F49A UX / UI"
+  id: b8f42b3e-d1d0-5212-bb39-9dfad1b01661
 - key: _web
   name: "\U0001F30D Web"
   id: cf75cee3-5ee8-58de-ac77-6bb665a3463d
-- key: _wtf
-  name: "\U0001F381 WTF"
-  id: bd9ab640-9181-5f5d-a1e7-a228fd87c7bb
 - key: keynote
   name: Keynote
 - key: lunch
   name: Lunch
-- key: office-hours
-  name: Office Hours
 - key: open
   name: Ouverture
 - key: party

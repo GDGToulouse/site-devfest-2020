@@ -1,6 +1,4 @@
 [submodule "themes/devfest-theme-hugo"]
 	path = themes/devfest-theme-hugo
-	url = https://github.com/GDGToulouse/devfest-theme-hugo.git
-[submodule "themes/devfest-theme-hugo-2020"]
-	path = themes/devfest-theme-hugo-2020
-	url = https://github.com/GDGToulouse/devfest-theme-hugo.git
+	url = https://github.com/GDG-Nantes/devfest-theme-hugo
+	branch = nantes-2020

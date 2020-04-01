@@ -1,57 +1,118 @@
 ---
-title: Code of Conduct
+title: Code of conduct
 
 draft: false
 ---
 
-## 1. Purpose
+The GDG Nantes (Organisers of DevFest Nantes) is proud to be an open community that respects differences and diversity. We want all attendees (attendees, speakers, ...) to have an enjoyable and fulfilling experience. **This implies that all attendees, speakers, sponsors and volunteers should respect this code of conduct.**
 
-A primary goal of [GDG Toulouse](http://www.gdgtoulouse.fr/) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
-GDG Toulouse prides itself on being an open, respectful, and inclusive community. That means the [jerky behavior](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk) isn’t allowed at GDG meetings.
+## Light version of explicit "Code of Conduct policy"
 
-This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
-We invite all those who participate in Google Developers Group to help us create safe and positive experiences for everyone.
+DevFest Nantes is dedicated to providing a harassment-free conference experience for everyone, regardless of:
 
-## 2. Open [Source/Culture/Tech] Citizenship
+- gender
+- gender identity and expression
+- sexual orientation
+- disability
+- physical appearance
+- body size
+- race
+- age
+- religion
+- technology choices
 
-A supplemental goal of this Code of Conduct is to increase open [source/culture/tech] citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community. Communities mirror the societies in which they exist, and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society. If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
+We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, codelabs, animations, parties, social networks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
 
-## 3. Expected Behavior
+## Longer version
 
-The following behaviors are expected and requested of all community members:
+DevFest Nantes is dedicated to providing a harassment-free conference experience for everyone, regardless of:
 
-- Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
-- Exercise consideration and respect in your speech and actions.
-- Attempt collaboration before a conflict.
-- Refrain from demeaning, discriminatory, or harassing behavior and speech.
-- Be mindful of your surroundings and your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
+- gender
+- gender identity and expression
+- sexual orientation
+- disability
+- physical appearance
+- body size
+- race
+- age
+- religion
+- technology choices
 
-## 4. Unacceptable Behavior
+We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, codelabs, animations, parties, social networks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
 
-The following actions are considered harassment and are unacceptable within our community:
+Harassment includes, but is not limited to:
 
-- Violence, threats of violence or violent language directed against another person.
-- Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
-- Posting or displaying sexually explicit or violent material.
-- Posting or threatening to post other people’s personally identifying information ("doxing").
-- Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
-- Inappropriate photography or recording.
-- Inappropriate physical contact. You should have someone’s consent before touching them.
-- Unwelcome sexual attention. This includes sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
-- Deliberate intimidation, stalking or following (online or in person).
-- Advocating for, or encouraging, any of the above behavior.
-- Sustained disruption of community events, including talks and, presentations.
+- Verbal comments that reinforce social structures of domination, related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, technology choices.
+- Sexual images in public spaces
+- Deliberate intimidation, stalking, or following
+- Harassing photography or recording
+- Sustained disruption of talks or other events
+- Inappropriate physical contact
+- Unwelcome sexual attention
+- Nudity in public spaces
+- Advocating for, or encouraging, any of the above behaviour
 
-## 5. Consequences of Unacceptable Behavior
+Participants asked to stop any harassing behavior are expected to comply immediately
 
-Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
-Anyone asked to stop unacceptable behavior is expected to comply immediately.
-If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event.
+Sponsors in the expo hall, or similar activities are also subject to the anti-harassment policy. Sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
 
-## 6. Scope
+If a participant engages in harassing behaviour, event organisers retain the right to take any actions to keep the event a welcoming environment for all participants. This includes warning the offender or expulsion from the conference with no refund.
 
-We expect all community participants to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications about community business. This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to affect the safety and well-being of community members adversely.
+Event organisers may take action to redress anything designed to, or with the clear impact of, disrupting the event or making the environment hostile for any participants.
 
-## 7. Contact info
+We expect participants to follow these rules at all event venues and event-related social activities (slack, twitter, mailing, ...). We think people should follow these rules outside event activities too!
 
-<contact@devfesttoulouse.fr>
+## Need to report
+
+If someone bothers you in any way, we request you to immediately contact the organizers who will put in place the necessary measures. We want to keep the DevFest respectful of others and make it a socially enjoyable event.
+
+Conference staff can be identified by t-shirts staff (a photo will be soon available). Harassment and other code of conduct violations reduce the value of our event for everyone. We want you to be happy at our event. People like you make our event a better place.
+
+You can make a report personally.
+
+### Personal Report
+
+You can make a personal report by:
+
+Contacting a staff member, identified by STAFF t-shirt.
+
+When taking a personal report, our staff will ensure you are safe and cannot be overheard. They may involve other event staff to ensure your report is managed properly. Once safe, we'll ask you to tell us about what happened. This can be upsetting, but we'll handle it as respectfully as possible, and you can bring someone to support you. You won't be asked to confront anyone and we won't tell anyone who you are.
+
+Our team will be happy to help you contact hotel/venue security, local law enforcement, local support services, provide escorts, or otherwise assist you to feel safe for the duration of the event. We value your attendance.
+
+### Report Data
+
+If you make a report via email, please include:
+
+- The title format : [DevFest Nantes] COC Violation
+- Your contact info (so we can get in touch with you if we need to follow up)
+- Date and time of the incident
+- Location of incident
+- Whether the incident is ongoing
+- Description of the incident
+- Identifying information of the reported person: name, physical appearance, height, clothing, voice accent, \* identifying badge information such as company name, ribbons, or badge number
+- Additional circumstances surrounding the incident
+- Other people involved in or witnesses to the incident and their contact information or description
+
+### Confidentiality
+
+All reports will be kept confidential. When we discuss incidents with people who are reported, we will anonymize details as much as we can to protect reporter privacy.
+
+However, some incidents happen in one-on-one interactions, and even if the details are anonymized, the reported person may be able to guess who made the report. If you have concerns about retaliation or your personal safety, please note those in your report. We still encourage you to report, so that we can support you while keeping our conference attendees safe. In some cases, we can compile several anonymized reports into a pattern of behavior, and take action on that pattern.
+
+In some cases we may determine that a public statement will need to be made. If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
+
+### Contacts
+
+In case of a conflict of interest, you can individually contact:
+
+- Audrey Garreau
+  - In charge of diversity and speakers relation
+  - audrey@gdgnantes.com
+- Jean-François Garreau
+  - Treasurer and co-founder of DevFest
+  - jef@gdgnantes.com
+
+## License
+
+This Code of Conduct was forked from the example policy from the [Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), [created by the Ada Initiative and other volunteers](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), which is under a Creative Commons Zero license.

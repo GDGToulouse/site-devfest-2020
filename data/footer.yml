@@ -6,50 +6,49 @@ share:
 
 follow:
   - name: facebook
-    url: https://www.facebook.com/GDGToulouse/
+    url: https://www.facebook.com/gdgnantes
   - name: twitter
-    url: https://twitter.com/devfesttoulouse
+    url: https://twitter.com/devfestnantes
   - name: linkedin
-    url: https://www.linkedin.com/company/devfesttoulouse/
+    url: https://www.linkedin.com/in/gdg-nantes/
   - name: youtube
     url: https://www.youtube.com/channel/UCx83f-KzDd3o1QK2AdJIftg
 
 content:
   - title: footer_about
     links:
-      - name: GDG Toulouse
-        url: http://gdgtoulouse.fr/
+      - name: GDG Nantes
+        url: http://gdgnantes.com/
         newTab: true
       - name: Google Developers Group
         url: https://developers.google.com/
         newTab: true
-#      - name: Kit de communication
-#        url: /kit/MediaKit.zip
-#        newTab:
       - nameKey: footer_coc
         url: /code-of-conduct/
         newTab: false
-      - name: qwanturank
-        url: https://qwanturank.live/
-        newTab: true
+      - nameKey: footer_legal_mentions
+        url: /legal-mentions/
+        newTab: false
 
   - title: footer_previous_edition
     links:
-      - name: DevFest Toulouse 2019
-        url: https://2019.devfesttoulouse.fr/
+      - name: DevFest Nantes 2019
+        url: https://devfest2019.gdgnantes.com/
         newTab: true
-      - name: DevFest Toulouse 2018
-        url: https://2018.devfesttoulouse.fr/
+      - name: DevFest Nantes 2018
+        url: https://devfest2018.gdgnantes.com/
         newTab: true
-      - name: DevFest Toulouse 2017
-        url: https://2017.devfesttoulouse.fr/
+      - name: DevFest Nantes 2017
+        url: https://devfest2017.gdgnantes.com/
         newTab: true
-      - name: DevFest Toulouse 2016
-        url: https://2016.devfesttoulouse.fr/
+      - name: DevFest Nantes 2016
+        url: https://devfest2016.gdgnantes.com/
         newTab: true
-
-#  - title: footer_become_partners
-#    links:
-#      - nameKey: footer_become_partners_label
-#        url: https://docs.google.com/presentation/d/e/2PACX-1vR9oEvhN0eKW6KeMqJzYZt1AtwiO5eyRhWcy6cXfE63vtZzX8U9B8_r2LpO6WIwDWjOoLkf10G7tFGO/pub?start=false&loop=true&delayms=0&slide=id.g376bab0a27_1_7
-#        newTab: true
+  - title: footer_for_partners
+    links:
+      - nameKey: footer_partnership_kit_label
+        url: https://drive.google.com/open?id=1byXX6wJxO94CsMQUtWYBOCL8vBVgJeWW
+        newTab: true
+      - nameKey: footer_media_kit_label
+        url: https://drive.google.com/open?id=192OoDFbl2wGpZR3Fqbdds0UqzR8eQIB9
+        newTab: true
