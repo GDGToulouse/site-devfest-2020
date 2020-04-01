@@ -44,11 +44,11 @@ content:
       - name: DevFest Nantes 2016
         url: https://devfest2016.gdgnantes.com/
         newTab: true
-  # - title: footer_for_partners
-  #   links:
-  #     - nameKey: footer_partnership_kit_label
-  #       url: https://drive.google.com/open?id=10XLxBFKYnYtFacukH2i2j3pFA_8R6oqA
-  #       newTab: true
-  #     - nameKey: footer_media_kit_label
-  #       url: https://drive.google.com/open?id=1Hk6UOxcpsnR4ITi-FFJwRjujZOnnoFpf
-  #       newTab: true
+  - title: footer_for_partners
+    links:
+      - nameKey: footer_partnership_kit_label
+        url: https://drive.google.com/open?id=1byXX6wJxO94CsMQUtWYBOCL8vBVgJeWW
+        newTab: true
+      - nameKey: footer_media_kit_label
+        url: https://drive.google.com/open?id=192OoDFbl2wGpZR3Fqbdds0UqzR8eQIB9
+        newTab: true
