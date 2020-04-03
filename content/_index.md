@@ -14,7 +14,7 @@ menu:
 
 {{% /jumbo %}}
 
-{{% home-info what="Attendees:2000,Days:2,Sessions:69,Tracks:4,Speakers:90+" class="primary" %}}
+{{% home-info what="Attendees:2100,Days:2,Sessions:69,Tracks:4,Speakers:90+" class="primary" %}}
 
 ## What is DevFest Nantes?
 

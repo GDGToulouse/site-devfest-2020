@@ -26,7 +26,7 @@ Nous investissons cette année encore toute la Cité des Congrès (excepté le g
 
 - Toujours 4 conférences en parallèle et une zone de rediffusion
 - Toujours 3 types de formats : des conférences, des quickies (conférence courte de 20min) et des codelabs
-- Toujours plus de 1800 participants par jour
+- Toujours plus de 2100 participants par jour
 - Le thème Street Art, notre tagline : The art of code !
 - Pleins d’autres surprises et nouveautés qui vous seront présentées dans nos communications futures !
 

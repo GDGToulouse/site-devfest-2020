@@ -12,7 +12,7 @@ GDG Nantes is proud to announce the 9th edition of DevFest Nantes. The event wil
 
 ## Back in image on the 2019 edition
 
-In 2019, there were more than 2,000 participants a day and 90 well-known local, national and even international speakers coming from companies like Google, Microsoft, Gitlab, Jetbrains.
+In 2019, there were more than 2000 participants a day and 90 well-known local, national and even international speakers coming from companies like Google, Microsoft, Gitlab, Jetbrains.
 
 For more info, watch our video of the key moments of the DevFest Nantes 2019
 
@@ -26,7 +26,7 @@ We are investing again this year all the Cité des Congrès (except the large au
 
 - Always 4 conferences in parallel and a replay area
 - Always 3 types of formats: conferences, quickies (20min short conference) and codelabs
-- Always more than 2000 participants per day
+- Always more than 2100 participants per day
 - The Street Art theme, our tagline: The art of code!
 - Full of other surprises and novelties that will be presented to you in our future communications!
 

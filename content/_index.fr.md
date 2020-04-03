@@ -14,7 +14,7 @@ menu:
 
 {{% /jumbo %}}
 
-{{% home-info what="Participants:2000,Journées:2,Conférences:69,Tracks:4,Speakers:90+" class="primary" %}}
+{{% home-info what="Participants:2100,Journées:2,Conférences:69,Tracks:4,Speakers:90+" class="primary" %}}
 
 ## Le DevFest Nantes
 
