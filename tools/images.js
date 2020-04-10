@@ -8,7 +8,7 @@ Logger.config = colorEmojiConfig;
 const logger = Logger.getLogger('images');
 logger.level = LogLevel.All;
 
-const failure = msg => err => {
+const failure = (msg) => (err) => {
   logger.error(msg);
   console.error(err);
 };
@@ -16,9 +16,9 @@ const failure = msg => err => {
 const baseWidths = [1140, 960, 720, 540];
 
 // Cleanup previous images
-const imgs = baseWidths.flatMap(width => [`static/images/**/*-${width}.jpg`, `static/images/**/*-${width}.webp`]);
+const imgs = baseWidths.flatMap((width) => [`static/images/**/*-${width}.jpg`, `static/images/**/*-${width}.webp`]);
 imgs.push(`static/images/*.webp`);
-imgs.forEach(files => {
+imgs.forEach((files) => {
   logger.info(`Cleanup previous images`, files);
   rimraf.sync(files);
 });
@@ -37,12 +37,12 @@ const imagesFiles = [
   { files: `static/images/team/*.*`, opt: { width: 150 }, format: 'webp' },
   // { files: `static/images/team/*.png`, format: 'jpg' },
   { files: `static/images/wtf/*.*`, format: 'webp' },
-  { files: `static/images/*.jpg`, format: 'webp' }
+  { files: `static/images/*.jpg`, format: 'webp' },
 ];
 
 imagesFiles.forEach(({ files, opt, format }) => {
   logger.info(`Deal with ${files}: format: ${format}, with ${opt ? JSON.stringify(opt) : ''}`);
-  glob(files).forEach(file => {
+  glob(files).forEach((file) => {
     const { dir, name, ext } = path.parse(file);
     if (ext.endsWith(format)) {
       logger.debug(`Skip ${file}, already at format ${format}`);
@@ -65,15 +65,15 @@ const imagesAltFiles = [
   `static/images/kids/*.jpg`,
   `static/images/wtf/*.jpg`,
   `static/images/social-share.jpg`,
-  `static/images/konfetti/logo.jpg`
+  `static/images/konfetti/logo.jpg`,
 ];
 
-imagesAltFiles.forEach(files => {
+imagesAltFiles.forEach((files) => {
   logger.info(`Deal with ${files} and widths: ${baseWidths}`);
-  glob(files).forEach(file => {
+  glob(files).forEach((file) => {
     const { dir, name } = path.parse(file);
 
-    baseWidths.forEach(width => {
+    baseWidths.forEach((width) => {
       const output = path.format({ dir, name: `${name}-${width}`, ext: `.webp` });
 
       sharp(file)
@@ -86,9 +86,9 @@ imagesAltFiles.forEach(files => {
 });
 
 // Background in JPG
-glob(`static/images/backgrounds/*.jpg`).forEach(file => {
+glob(`static/images/backgrounds/*.jpg`).forEach((file) => {
   const { dir, name, ext } = path.parse(file);
-  baseWidths.forEach(width => {
+  baseWidths.forEach((width) => {
     const output = path.format({ dir, name: `${name}-${width}`, ext });
     sharp(file)
       .resize({ width: width })
@@ -98,32 +98,32 @@ glob(`static/images/backgrounds/*.jpg`).forEach(file => {
   });
 });
 
-glob(`static/images/blog/!(*-mini).*`).forEach(file => {
-  const ext = '.webp';
-  const { dir, name, ext: baseExt } = path.parse(file);
-  baseWidths.forEach(width => {
-    const output = path.format({ dir, name: `${name}-${width}`, ext });
-    sharp(file)
-      .resize({ width: width })
-      .toFile(output)
-      .catch(failure(`Fail to generate ${output}`))
-      .then(() => logger.info(`Generate ${output}`, '[OK]'));
-  });
+// glob(`static/images/blog/!(*-mini).*`).forEach(file => {
+//   const ext = '.webp';
+//   const { dir, name, ext: baseExt } = path.parse(file);
+//   baseWidths.forEach(width => {
+//     const output = path.format({ dir, name: `${name}-${width}`, ext });
+//     sharp(file)
+//       .resize({ width: width })
+//       .toFile(output)
+//       .catch(failure(`Fail to generate ${output}`))
+//       .then(() => logger.info(`Generate ${output}`, '[OK]'));
+//   });
 
-  [ext, baseExt].forEach(ext => {
-    const output = path.format({ dir, name: `${name}-mini`, ext });
-    sharp(file)
-      .resize({ width: 256 })
-      .toFile(output)
-      .catch(failure(`Fail to generate ${output}`))
-      .then(() => logger.info(`Generate ${output}`, '[OK]'));
-  });
-});
+//   [ext, baseExt].forEach(ext => {
+//     const output = path.format({ dir, name: `${name}-mini`, ext });
+//     sharp(file)
+//       .resize({ width: 256 })
+//       .toFile(output)
+//       .catch(failure(`Fail to generate ${output}`))
+//       .then(() => logger.info(`Generate ${output}`, '[OK]'));
+//   });
+// });
 
 // Albums
-glob(`static/images/album/**/*.jpg`).forEach(file => {
+glob(`static/images/album/**/*.jpg`).forEach((file) => {
   const { dir, name } = path.parse(file);
-  baseWidths.forEach(width => {
+  baseWidths.forEach((width) => {
     const output = path.format({ dir, name: `${name}-${width}`, ext: `.webp` });
     sharp(file)
       .resize({ width: (width / 5) * 2 }) // half
@@ -134,8 +134,8 @@ glob(`static/images/album/**/*.jpg`).forEach(file => {
 });
 
 // Map
-baseWidths.forEach(width => {
-  ['map', 'map2'].forEach(img => {
+baseWidths.forEach((width) => {
+  ['map', 'map2'].forEach((img) => {
     const output = path.format({ dir: 'static/images', name: `${img}-${width}`, ext: `.webp` });
     sharp(`static/images/${img}.jpg`)
       .resize({ width, height: 480, fit: 'cover' })
