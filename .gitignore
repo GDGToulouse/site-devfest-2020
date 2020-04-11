@@ -16,4 +16,3 @@ static/schedule/schedule*.pdf
 
 /static/styles/*.css
 *.webp
-/static/images/blog/*-mini*
