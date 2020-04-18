@@ -1,0 +1,50 @@
+name: build
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 0.65.3
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Checkout submodules
+        shell: bash
+        run: |
+          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+          git submodule sync --recursive
+          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+
+      # BUILD
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Compressed images
+        run: npm run build:images
+
+      - name: Generate SVG icons
+        run: npm run build:icons
+
+      - name: Generate pages CSS
+        run: npm run build:styles
+
+      - name: Build Site
+        run: hugo --baseURL https://devfest2020.gdgnantes.com/
+
+      - name: Generate PWA service worker
+        run: npm run build:service-worker
+
+      - name: Optimize HTML / JS / CSS
+        run: npm run build:minify
