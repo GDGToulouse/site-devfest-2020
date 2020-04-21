@@ -50,8 +50,9 @@ jobs:
         run: npm run build:styles
 
       - name: Build Site
-        # TODO passer à https://devfest.gdgnantes.com/
-        run: hugo --baseURL https://${{ steps.get_version.outputs.VERSION }}-dot-devfestnantes2020.appspot.com/
+        run: hugo --baseURL https://devfest2020.gdgnantes.com/
+        env:
+          HUGO_ENV: production
 
       - name: Generate PWA service worker
         run: npm run build:service-worker

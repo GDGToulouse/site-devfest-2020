@@ -42,6 +42,8 @@ jobs:
 
       - name: Build Site
         run: hugo --baseURL https://devfest2020.gdgnantes.com/
+        env:
+          HUGO_ENV: production
 
       - name: Generate PWA service worker
         run: npm run build:service-worker
