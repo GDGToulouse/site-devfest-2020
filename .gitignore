@@ -13,6 +13,8 @@ static/schedule/schedule*.pdf
 *-960.jpg
 *-720.jpg
 *-540.jpg
+*-mini.jpg
+*-mini.png
 
 /static/styles/*.css
 *.webp
