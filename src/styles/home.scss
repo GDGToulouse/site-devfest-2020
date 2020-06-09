@@ -76,8 +76,14 @@ div.number:nth-child(3) > strong:nth-child(1) {
 
 
 // CORONA ANNOUNCEMENT
-.jumbo .inner {
+.jumbo {
+    height: unset;
+    min-height: calc(100vh - var(--toolbar-height));
+}
+.jumbo .inner-wrapper .inner {
   --bg: hsla(0,100%,100%,.95);
+
+  max-width: calc(var(--theJdrSize) - 2rem);
 
   background-color: var(--bg);
   border-radius: var(--space-2);
@@ -94,10 +100,25 @@ div.number:nth-child(3) > strong:nth-child(1) {
     color: #222;
     display: flex;
     text-align: left;
+    font-size: 1.25rem;
+
+    @include mq($until: sm) {
+      font-size: 1.125rem;
+    }
+    @include mq($until: md) {
+      font-size: 1.25rem;
+    }
   }
   p {
     text-align: justify;
     color: var(--link-secondary-text);
+
+    @include mq($until: sm) {
+      font-size: .90rem;
+    }
+    @include mq($until: md) {
+      font-size: .90rem;
+    }
    }
 }
 .scroll-down {
