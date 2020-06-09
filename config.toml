@@ -31,7 +31,7 @@ googleAnalytics = "UA-37717223-9"
     googleWebmasterKey = "BcIJYWDHoblML5DO66_b1BGBne9J_7Oq3GjC5SDCKK8"
 
 [params.logos]
-    jumbo = "/images/logos/devfest_color_text.svg"
+    jumbo = "/images/logos/devfest_color_text-canceled.svg"
     header = "/images/logos/devfest_color_text.svg"
     footer = "/images/logos/devfest_gray_text.svg"
 

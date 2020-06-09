@@ -26,7 +26,13 @@ git add themes/devfest-theme-hugo
 
 ## Run Local site
 
-Just run
+First run
+
+```bash
+npm run build
+``` 
+
+Then you can work with Hugo with
 
 ```bash
 hugo server -D
