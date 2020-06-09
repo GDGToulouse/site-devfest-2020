@@ -73,3 +73,33 @@ div.number:nth-child(3) > strong:nth-child(1) {
     font-size: 80%;
   }
 }
+
+
+// CORONA ANNOUNCEMENT
+.jumbo .inner {
+  --bg: hsla(0,100%,100%,.95);
+
+  background-color: var(--bg);
+  border-radius: var(--space-2);
+  box-shadow: 0 0 51px -32px rgba(0,0,0,.75);
+  padding: 2em;
+  margin-bottom: 2em;
+
+  h2, p {
+    background-color: transparent;
+    box-shadow: none;
+    text-shadow: none;
+  }
+  h2 {
+    color: #222;
+    display: flex;
+    text-align: left;
+  }
+  p {
+    text-align: justify;
+    color: var(--link-secondary-text);
+   }
+}
+.scroll-down {
+  display: none;
+}

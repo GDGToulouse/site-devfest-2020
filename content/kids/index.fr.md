@@ -5,9 +5,9 @@ fullTitle: DevFest Pitchouns
 type: kids
 image: /images/kids/cover
 
-menu:
-  main:
-    weight: 90
+#menu:
+#  main:
+#    weight: 90
 
 draft: false
 ---

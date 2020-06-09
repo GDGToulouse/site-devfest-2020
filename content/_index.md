@@ -10,8 +10,20 @@ menu:
 
 {{% jumbo %}}
 
-## 5th & 6th, November
-### Pierre Baudis congress center
+## Dear Attendees, Speakers, Sponsors & Supporters,
+
+It is with a heavy heart that **we are forced to cancel DevFest Toulouse 2020**.
+
+
+Indeed our goal with DevFest Toulouse has always been to create a unique atmosphere to meet the community, learn from the best and share knowledge.
+
+The Covid19 pandemic has stopped us from doing so. As of now we still have a lot of unanswered questions, and we feel that as volunteers, the  remaining time until November is too short to organize a good edition. That's the reason why today we renounce.
+
+That being said, be sure that **we are actively working for the 2021 edition**!
+ 
+Take care of yourselves,<br/>
+the DevFest Toulouse team
+
 
 <!-- <a class="btn primary btn-lg" style="margin-top: 1em;" href="https://drive.google.com/file/d/1td_9Cr1b2JZvv0bCpOCJNDsEWgVgEp2Y/view?usp=sharing" target="_blank">Become a sponsor</a> -->
 
@@ -27,6 +39,7 @@ menu:
 {{< konfetti >}}
 -->
 
+<!-- ...
 
 {{% home-info what="Participants:1000,Days:2,Sessions:70+,Parallel Tracks:4" class="primary" %}}
 ## What is DevFest Toulouse?    
@@ -35,13 +48,18 @@ The DevFest, or 'Developers Festival', is a technical conference for developers.
 It is aimed at students, professionals or simply curious technophiles.
 {{% /home-info %}}
 
+-->
+
+<!-- ...
+
 {{< youtube-section link="AFhHrQIAw3g" title="Watch 2019 intro" class="" >}}
 
-<!-- ... -->
+-->
+
+<!-- ... 
 
 {{% home-speakers %}}
 
-<!--
 ## Featured Speakers
 
 {{< button-link label="Submit a presentation"
@@ -51,10 +69,10 @@ It is aimed at students, professionals or simply curious technophiles.
                 url="./speakers"
                 icon="right" >}}
 
--->
 {{% /home-speakers %}}
+-->
 
-<!-- ... -->
+<!-- ... 
 
 {{% home-subscribe  class="primary" %}}
 
@@ -62,7 +80,7 @@ It is aimed at students, professionals or simply curious technophiles.
 
 {{% /home-subscribe %}}
 
-<!-- ... -->
+-->
 
 <!--
 {{% home-tickets %}}
@@ -99,7 +117,7 @@ It is aimed at students, professionals or simply curious technophiles.
 {{% /home-tickets %}}
 -->
 
-<!-- ... -->
+<!-- ... 
 
 {{% home-location
     image="/images/map.jpg"
@@ -117,7 +135,9 @@ in the immediate vicinity of the centre of Toulouse and in a green environment.
 
 {{% /home-location %}}
 
-<!-- ... -->
+-->
+
+<!-- ...
 
 {{% album images="/images/album/2019/725A8234.jpg,/images/album/2019/725A8597.jpg,/images/album/2019/725A8647.jpg,/images/album/2019/725A8674.jpg,/images/album/2019/725A8900.jpg,/images/album/2019/725A8937.jpg,/images/album/2019/725A9040.jpg,/images/album/2019/IMG_20191002_141354.jpg" %}}
 
@@ -129,6 +149,7 @@ in the immediate vicinity of the centre of Toulouse and in a green environment.
 </a>
 
 {{% /album %}}
+-->
 
 <!-- ...  
 
