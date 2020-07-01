@@ -1,5 +1,5 @@
 ---
-title: Audrey Garreau
+title: Audrey Le Mercier
 type: core
 subtitle: CEO Yumigo
 photo: audrey.png
