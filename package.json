@@ -35,7 +35,7 @@
     "rollup-plugin-uglify": "^6.0.4",
     "sass-mq": "^5.0.1",
     "serve-handler": "^6.1.1",
-    "sharp": "^0.25.3",
+    "sharp": "^0.25.4",
     "uglify-js": "^3.9.4",
     "workbox-build": "^5.1.3"
   }
