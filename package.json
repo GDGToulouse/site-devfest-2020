@@ -37,6 +37,6 @@
     "serve-handler": "^6.1.3",
     "sharp": "^0.26.3",
     "uglify-js": "^3.12.1",
-    "workbox-build": "^5.1.4"
+    "workbox-build": "^6.0.0"
   }
 }
