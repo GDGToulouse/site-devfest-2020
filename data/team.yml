@@ -1,15 +1,3 @@
-- title: Alexia Audevart
-  type: volunteers
-  subtitle: Toulouse Data Science
-  photo: alexia_audevart.jpg
-  socials:
-    - link: 'https://www.twitter.com/aaudevart'
-      name: Twitter
-    - link: 'https://github.com/aaudevart'
-      name: Github
-    - link: 'https://www.linkedin.com/in/alexia-audevart-450b8a1/'
-      name: Linkedin
-  key: alexia_audevart
 - title: Aurélie Vache
   type: kids
   subtitle: Duchess France / Toulouse Data Science
@@ -24,32 +12,6 @@
     - link: 'https://github.com/scraly'
       name: Github
   key: aurelie_vache
-- title: Aurelien Baumann
-  type: volunteers
-  subtitle: Go's guru
-  photo: aurelien_baumann.jpg
-  socials:
-    - link: 'https://twitter.com/kendo5731'
-      name: Twitter
-  key: aurelien_baumann
-- title: Didier Plaindoux
-  type: volunteers
-  subtitle: Toulouse JUG
-  photo: didier_plaindoux.jpg
-  socials:
-    - link: 'https://twitter.com/dplaindoux'
-      name: Twitter
-  key: didier_plaindoux
-- title: Elodie Lerare
-  type: volunteers
-  subtitle: ''
-  photo: elodie_lerare.jpg
-  socials:
-    - link: 'https://twitter.com/EloBlou'
-      name: Twitter
-    - link: 'https://www.linkedin.com/in/elodie-lerare-223a6b41/'
-      name: LinkedIn
-  key: elodie_lerare
 - title: Emmanuel Vinas
   type: core
   subtitle: GDG Toulouse
@@ -94,14 +56,6 @@
     - link: 'https://github.com/ilaborie'
       name: Github
   key: igor_laborie
-- title: Julien Del Rio
-  type: core
-  subtitle: GDG Toulouse
-  photo: julien_delrio.jpg
-  socials:
-    - link: 'https://twitter.com/JulienDelRio'
-      name: Twitter
-  key: julien_delrio
 - title: Julien Renaux
   type: core
   subtitle: Président GDG Toulouse
@@ -120,34 +74,6 @@
     - link: 'https://twitter.com/kevinabrioux'
       name: Twitter
   key: kevin_abrioux
-- title: Kevin Davin
-  type: volunteers
-  subtitle: GDG Toulouse & Toulouse JUG
-  photo: kevin_davin.png
-  socials:
-    - link: 'https://twitter.com/davinkevin'
-      name: Twitter
-    - link: 'https://github.com/davinkevin/'
-      name: Github
-    - link: www.linkedin.com/in/davinkevin
-      name: LinkedIn
-  key: kevin_davin
-- title: Kevin Segaud
-  type: volunteers
-  subtitle: Flutter's guru
-  photo: kevin_segaud.jpg
-  socials:
-    - link: 'https://twitter.com/kleak_dev'
-      name: Twitter
-  key: kevin_segaud
-- title: Lionel Porcheron
-  type: volunteers
-  subtitle: Toulouse DevOps
-  photo: lionel_porcheron.jpg
-  socials:
-    - link: 'https://twitter.com/lporcheron'
-      name: Twitter
-  key: lionel_porcheron
 - title: Maxime Pawlak
   type: core
   subtitle: GDG Toulouse
@@ -156,14 +82,6 @@
     - link: 'https://twitter.com/Maxime_Pawlak'
       name: Twitter
   key: maxime_pawlak
-- title: Maxime Warnier
-  type: volunteers
-  subtitle: JavaScript's guru
-  photo: maxime_warnier.jpg
-  socials:
-    - link: 'https://twitter.com/maxdow'
-      name: Twitter
-  key: maxime_warnier
 - title: Michaël Bitard
   type: core
   subtitle: Electron liiiibre
