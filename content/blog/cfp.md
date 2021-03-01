@@ -6,7 +6,7 @@ imageInfo: Photo by israel palacio on Unsplash
 infoClass: dark
 toc: true
 date: 2020-02-10
-draft: false
+draft: true
 ---
 
 # The selection process
