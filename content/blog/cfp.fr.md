@@ -6,7 +6,7 @@ imageInfo: Photo de israel palacio sur Unsplash
 infoClass: dark
 toc: true
 date: 2020-02-10
-draft: false
+draft: true
 ---
 
 # La processus de sélection
