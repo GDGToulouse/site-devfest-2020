@@ -12,14 +12,6 @@
     - link: 'https://github.com/scraly'
       name: Github
   key: aurelie_vache
-- title: Emmanuel Vinas
-  type: core
-  subtitle: GDG Toulouse
-  photo: emmanuel_vinas.jpg
-  socials:
-    - link: 'https://twitter.com/EmmanuelVinas'
-      name: Twitter
-  key: emmanuel_vinas
 - title: Jean Martineau-Figuette
   type: cfp
   subtitle: React Meetup
