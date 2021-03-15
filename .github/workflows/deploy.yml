@@ -79,6 +79,6 @@ jobs:
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_TITLE: Déploiement réussi
-          SLACK_MESSAGE: Version ${{ steps.get_version.outputs.VERSION }} https://${{ steps.get_version.outputs.VERSION }}-dot-devfestnantes2021.appspot.com/
+          SLACK_MESSAGE: Version ${{ steps.get_version.outputs.VERSION }} https://${{ steps.get_version.outputs.VERSION }}-dot-devfestnantes2021.ew.r.appspot.com//
           SLACK_ICON: https://github.com/fluidicon.png
           SLACK_USERNAME: Github Actions
