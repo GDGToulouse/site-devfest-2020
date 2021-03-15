@@ -1,7 +1,7 @@
 {
-  "name": "devfest2020",
+  "name": "devfest2021",
   "version": "1.0.0",
-  "repository": "https://github.com/GDG-Nantes/devfest2020",
+  "repository": "https://github.com/GDG-Nantes/devfest2021",
   "author": "Igor Laborie <ilaborie@gmail.com>",
   "license": "MIT",
   "scripts": {

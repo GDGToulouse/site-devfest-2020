@@ -6,9 +6,9 @@ menu:
     weight: -1
 ---
 
-{{% jumbo img="/images/backgrounds/back-neutre.jpg" imgLabel="DevFest Nantes 2020" %}}
+{{% jumbo img="/images/backgrounds/back-neutre.jpg" imgLabel="DevFest Nantes 2021" %}}
 
-## OCTOBER 15-16, 2020
+## OCTOBER 21-22, 2021
 
 ### Cité des Congrès, Nantes, France
 

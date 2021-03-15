@@ -1,6 +1,6 @@
-baseURL = "https://devfest2020.gdgnantes.com/"
+baseURL = "https://devfest2021.gdgnantes.com/"
 languageCode = "en"
-title = "Devfest Nantes 2020"
+title = "Devfest Nantes 2021"
 
 # Theme
 theme = "devfest-theme-hugo"
@@ -13,8 +13,8 @@ enableMissingTranslationPlaceholders = true
 googleAnalytics = "UA-37717223-9"
 
 [params]
-    title = "DevFest Nantes 2020"
-    date = "2020-10-15 & 2020-10-16"
+    title = "DevFest Nantes 2021"
+    date = "2021-10-21 & 2021-10-22"
     description = "The DevFest, or 'Developers Festival', is a technical conference for developers. It is aimed at students, professionals or simply curious technophiles."
     images = ["/images/social-share.jpg"]
     email = "bureau@gdgnantes.com"

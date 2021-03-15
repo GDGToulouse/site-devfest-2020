@@ -9,6 +9,7 @@ yarn-error.log
 
 static/main.js
 static/schedule/schedule*.pdf
+*-1380.jpg
 *-1140.jpg
 *-960.jpg
 *-720.jpg

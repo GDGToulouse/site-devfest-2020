@@ -7,7 +7,7 @@ menu:
 draft: false
 ---
 
-{{% hero img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Nantes 2020"%}}
+{{% hero img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Nantes 2021"%}}
 {{% /hero %}}
 
 {{% default-section class="secondary attending citymap white" %}}
@@ -39,7 +39,7 @@ draft: false
 
 ## Horaires d'ouverture
 
-Les portes de la Cité des Congrès ouvriront de 8h00 à 20h00 le jeudi 15 Octobre et de 8h30 à 19h00 le vendredi 16 Octobre.
+Les portes de la Cité des Congrès ouvriront de 8h00 à 20h00 le jeudi 21 Octobre et de 8h30 à 19h00 le vendredi 22 Octobre.
 
 {{% /default-section %}}
 

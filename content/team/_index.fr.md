@@ -8,7 +8,7 @@ menu:
 draft: false
 ---
 
-{{% hero img="/images/backgrounds/back-4.jpg" imgLabel="DevFest Nantes 2020" %}}
+{{% hero img="/images/backgrounds/back-4.jpg" imgLabel="DevFest Nantes 2021" %}}
 {{% /hero %}}
 
 {{% default-section class="tertiary" %}}
