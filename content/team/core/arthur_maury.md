@@ -1,7 +1,7 @@
 ---
 title: Arthur Maury
 type: core
-subtitle: Full-stack Developer Bouygues Telecom
+subtitle: Software Architect at Bouygues Telecom
 photo: arthur.jpg
 socials:
   - link: 'https://twitter.com/ArthurMaury1'

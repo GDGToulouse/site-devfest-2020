@@ -16,7 +16,7 @@ The DevFests are major community events throughout the world, following the trad
 
 ### Who is organizing this event?
 
-The DevFest Nantes in 2020 is organized by <a href='http://gdgnantes.com' target='_blank'>GDG Nantes</a>. More information on the [team](../team/) page.
+The DevFest Nantes in 2021 is organized by <a href='http://gdgnantes.com' target='_blank'>GDG Nantes</a>. More information on the [team](../team/) page.
 
 ### How to become a sponsor or partner?
 
@@ -26,7 +26,7 @@ Simply by visiting our <a href='https://drive.google.com/open?id=12jZAT4lXvkswDJ
 
 ### When and Where is the event?
 
-The conference takes place on 15th and 16th October 2020 at the Cité des Congrès in Nantes.
+The conference takes place the 21st and 22nd October 2021 at the Cité des Congrès in Nantes.
 
 ### Where can I leave my luggage?
 
@@ -106,7 +106,7 @@ As a User Group, you can help us in several aspects:
 
 ### How long does the CFP lasts?
 
-The Registration will open on April 1st 2020 and will close on May 31, 2020, 11:59 PM GMT+2
+The Registration will open on April 1st 2021 and will close on June 15 2021, 11:59 PM GMT+2
 
 ### My presentation has been accepted, do I still need to buy an Entry ticket/ pass for the conference?
 

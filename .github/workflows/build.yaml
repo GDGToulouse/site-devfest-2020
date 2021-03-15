@@ -41,7 +41,7 @@ jobs:
         run: npm run build:styles
 
       - name: Build Site
-        run: hugo --baseURL https://devfest2020.gdgnantes.com/
+        run: hugo --baseURL https://devfest2021.gdgnantes.com/
         env:
           HUGO_ENV: production
 

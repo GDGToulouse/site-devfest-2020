@@ -7,7 +7,7 @@ menu:
 draft: false
 ---
 
-{{% hero img="/images/backgrounds/back-2.jpg" imgLabel="DevFest Nantes 2020"%}}
+{{% hero img="/images/backgrounds/back-2.jpg" imgLabel="DevFest Nantes 2021"%}}
 
 Vous souhaitez devenir sponsor, consultez notre dossier de sponsoring et contactez-nous à
 

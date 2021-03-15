@@ -1,7 +1,7 @@
-# Site DevFest Nantes 2020
+# Site DevFest Nantes 2021
 
-[![Actions Status](https://github.com/GDG-Nantes/devfest2020/workflows/build/badge.svg)](https://github.com/GDG-Nantes/devfest2020/actions)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=GDG-Nantes/devfest2020)](https://dependabot.com)
+[![Actions Status](https://github.com/GDG-Nantes/devfest2021/workflows/build/badge.svg)](https://github.com/GDG-Nantes/devfest2021/actions)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=GDG-Nantes/devfest2021)](https://dependabot.com)
 
 ## Requirement
 

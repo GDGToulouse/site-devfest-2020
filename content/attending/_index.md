@@ -7,7 +7,7 @@ menu:
 draft: false
 ---
 
-{{% hero img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Nantes 2020"%}}
+{{% hero img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Nantes 2021"%}}
 {{% /hero %}}
 
 {{% default-section class="secondary attending citymap white" %}}
@@ -39,7 +39,7 @@ draft: false
 
 ## Opening hours
 
-The doors of the Cité des Congrès will open from 8am to 8pm on 15th October and from 8:30am to 7pm on 16th October.
+The doors of the Cité des Congrès will open from 8am to 8pm on October 21st and from 8:30am to 7pm on  October 22nd.
 
 {{% /default-section %}}
 

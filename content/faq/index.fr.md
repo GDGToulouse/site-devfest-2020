@@ -16,11 +16,11 @@ Les DevFests sont des événements communautaires de grande envergure à travers
 
 ### Qui organise cet événement ?
 
-Le DevFest Nantes 2020 est organisé par le <a href='http://gdgnantes.com' target='_blank'>GDG Nantes</a>. Plus d'infos sur la page [équipe](../team/).
+Le DevFest Nantes 2021 est organisé par le <a href='http://gdgnantes.com' target='_blank'>GDG Nantes</a>. Plus d'infos sur la page [équipe](../team/).
 
 ### Comment devenir sponsor ou partenaire ?
 
-<!-- TODO dossier de partenarait 2020 -->
+<!-- TODO dossier de partenarait 2021 -->
 
 Simplement en consultant notre <a href='https://drive.google.com/open?id=12jZAT4lXvkswDJcdrki1Re1-qnwyvXed' target='_blank'>dossier de partenariat</a>, ou en nous contactant par mail au <a href='mailto:bureau@gdgnantes.com'>bureau du GDG Nantes</a>.
 
@@ -28,7 +28,7 @@ Simplement en consultant notre <a href='https://drive.google.com/open?id=12jZAT4
 
 ### Quand / Où ?
 
-La conférence a lieu les 15 et 16 Octobre 2020 à la Cité des Congrès de Nantes.
+La conférence a lieu les 21 et 22 Octobre 2021 à la Cité des Congrès de Nantes.
 
 ### Est-ce que je peux déposer mes bagages ?
 
@@ -114,7 +114,7 @@ En tant que User Group, vous pouvez nous aider sur plusieurs aspects :
 
 ### Combien de temps dure le CFP ?
 
-Le CFP ouvrira le 1er Avril 2020 et se terminera le 31 Mai à 23h59
+Le CFP ouvrira le 1er Avril 2021 et se terminera le 15 Juin à 23h59
 
 ### Ma présentation a été acceptée, dois-je payer mon entrée à la conférence ?
 
