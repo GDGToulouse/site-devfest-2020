@@ -66,7 +66,7 @@ jobs:
       # DEPLOY
 
       - name: Livraison ${{ steps.get_version.outputs.VERSION }}
-        uses: actions-hub/gcloud@master
+        uses: actions-hub/gcloud@master 
         env:
           PROJECT_ID: devfestnantes2021
           APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
