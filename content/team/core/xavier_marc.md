@@ -1,7 +1,7 @@
 ---
 title: Xavier Marc
 type: core
-subtitle: Software Architect Bouygues Telecom
+subtitle: Former member ❤️
 photo: xavier.png
 socials:
   - link: 'https://twitter.com/xavmrc'

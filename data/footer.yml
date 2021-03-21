@@ -47,8 +47,8 @@ content:
   - title: footer_for_partners
     links:
       - nameKey: footer_partnership_kit_label
-        url: https://drive.google.com/open?id=1byXX6wJxO94CsMQUtWYBOCL8vBVgJeWW
+        url: https://drive.google.com/drive/folders/1mG8fire3iGouszXyS3nxyNf3L0VYpGfa
         newTab: true
       - nameKey: footer_media_kit_label
-        url: https://drive.google.com/open?id=192OoDFbl2wGpZR3Fqbdds0UqzR8eQIB9
+        url: https://drive.google.com/drive/folders/1Qpe0mmD2btdEIVAIEUlJh081CUdyd5z3
         newTab: true

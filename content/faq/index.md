@@ -20,7 +20,7 @@ The DevFest Nantes in 2021 is organized by <a href='http://gdgnantes.com' target
 
 ### How to become a sponsor or partner?
 
-Simply by visiting our <a href='https://drive.google.com/open?id=12jZAT4lXvkswDJcdrki1Re1-qnwyvXed' target='_blank'>partnership proposition</a>, or by contacting us by mail at <a href='mailto:bureau@gdgnantes.com'>organizers of GDG Nantes</a>.
+Simply by visiting our <a href='https://drive.google.com/drive/folders/1mG8fire3iGouszXyS3nxyNf3L0VYpGfa' target='_blank'>partnership proposition</a>, or by contacting us by mail at <a href='mailto:bureau@gdgnantes.com'>organizers of GDG Nantes</a>.
 
 ## Conference
 

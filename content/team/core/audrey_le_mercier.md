@@ -1,7 +1,7 @@
 ---
 title: Audrey Le Mercier
 type: core
-subtitle: CEO Yumigo
+subtitle: Front-end developer at Le Petit Garage
 photo: audrey.png
 socials:
   - link: 'https://twitter.com/ag_lemercier'
