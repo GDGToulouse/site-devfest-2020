@@ -1,7 +1,7 @@
 ---
 title: Xavier Marc
 type: core
-subtitle: Former member ❤️
+subtitle: Honor member ❤️
 photo: xavier.png
 socials:
   - link: 'https://twitter.com/xavmrc'

@@ -106,7 +106,7 @@ As a User Group, you can help us in several aspects:
 
 ### How long does the CFP lasts?
 
-The Registration will open on April 1st 2021 and will close on June 15 2021, 11:59 PM GMT+2
+The Registration will open on April 1st 2021 and will close on June 15 2021, 11:59 PM GMT+2.
 
 ### My presentation has been accepted, do I still need to buy an Entry ticket/ pass for the conference?
 

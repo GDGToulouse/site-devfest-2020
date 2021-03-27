@@ -106,11 +106,11 @@ Dans certains cas, nous pouvons déterminer qu’une déclaration publique devra
 
 En cas de conflits d'intérêts, vous pouvez contacter individuellement :
 
-- Audrey Garreau
+- Audrey Le Mercier
   - Responsable de la diversité et de la relation avec les intervenants
   - audrey@gdgnantes.com
 - Jean-François Garreau
-  - Trésorier et co-fondateur du DevFest Nantes
+  - Co-fondateur du DevFest Nantes
   - jef@gdgnantes.com
 
 ## Licence

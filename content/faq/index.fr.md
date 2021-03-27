@@ -112,7 +112,7 @@ En tant que User Group, vous pouvez nous aider sur plusieurs aspects :
 
 ### Combien de temps dure le CFP ?
 
-Le CFP ouvrira le 1er Avril 2021 et se terminera le 15 Juin à 23h59
+Le CFP ouvrira le 1er Avril 2021 et se terminera le 15 Juin à 23h59.
 
 ### Ma présentation a été acceptée, dois-je payer mon entrée à la conférence ?
 

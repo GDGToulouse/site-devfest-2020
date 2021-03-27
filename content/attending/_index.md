@@ -12,6 +12,7 @@ draft: false
 
 {{% default-section class="secondary attending citymap white" %}}
 
+<!-- 
 ## Indoor map
 
 {{% centered-img src="/images/indoor_map.png" %}}
@@ -19,6 +20,7 @@ draft: false
 {{% /default-section %}}
 
 {{% default-section class="attending location-title tertiary" %}}
+-->
 
 ## Where is the event?
 

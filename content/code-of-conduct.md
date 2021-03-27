@@ -106,11 +106,11 @@ In some cases we may determine that a public statement will need to be made. If 
 
 In case of a conflict of interest, you can individually contact:
 
-- Audrey Garreau
+- Audrey Le Mercier
   - In charge of diversity and speakers relation
   - audrey@gdgnantes.com
 - Jean-François Garreau
-  - Treasurer and co-founder of DevFest
+  - Co-founder of DevFest
   - jef@gdgnantes.com
 
 ## License
