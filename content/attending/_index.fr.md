@@ -12,9 +12,7 @@ draft: false
 
 {{% default-section class="secondary attending citymap white" %}}
 
-<!-- 
-
-## Plan des salles
+<!-- ## Plan des salles
 
 {{% centered-img src="/images/indoor_map.png" %}}
 
@@ -22,7 +20,7 @@ draft: false
 
 {{% default-section class="attending location-title tertiary" %}} 
 
--->
+<!-- -->
 
 ## Où se trouve l'événement ?
 
