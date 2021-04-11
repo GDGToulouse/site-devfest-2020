@@ -32,6 +32,9 @@ content:
 
   - title: footer_previous_edition
     links:
+      - name: DevFest Nantes 2020
+        url: https://devfest2020.gdgnantes.com/
+        newTab: true
       - name: DevFest Nantes 2019
         url: https://devfest2019.gdgnantes.com/
         newTab: true
@@ -40,9 +43,6 @@ content:
         newTab: true
       - name: DevFest Nantes 2017
         url: https://devfest2017.gdgnantes.com/
-        newTab: true
-      - name: DevFest Nantes 2016
-        url: https://devfest2016.gdgnantes.com/
         newTab: true
   - title: footer_for_partners
     links:
