@@ -3635,10 +3635,10 @@ pinkie@^2.0.0:
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
 
-plop-logger@^3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/plop-logger/-/plop-logger-3.1.5.tgz#4d73552133b30e2ca79d88fac4693a82772b3775"
-  integrity sha512-vkoiHaxGZ9+b2ZFrQlS3MISrfShxc1Wk8wAWz6Hj0YCaf73dSjyJBx9C2rJYlxZfZeRbtMkX0bx1F2HFuIwCDg==
+plop-logger@^3.1.7:
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/plop-logger/-/plop-logger-3.1.7.tgz#15a66dddf19577e991a9e47b4931e64573a74189"
+  integrity sha512-fUCOE55ANFrLW/RZCVOJ3n6KIgYOGNvp+qx1Au42f51vgtoKgxRd0xWMwa0lFoSLB6Mv2QscQ740AqAJxUlxNg==
   dependencies:
     ansi-colors "^4.1.1"
 
