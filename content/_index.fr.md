@@ -35,48 +35,45 @@ Le DevFest, ou 'Developer Festival', est une conférence technique destinée aux
 
 {{% /home-speakers %}}
 
-<!--
+<!-- ...
 
 {{% home-tickets class="tertiary" %}}
 
 ## Billets
 
 <ul>
-<li>{{< ticket name="Early Birds"
-           starts="2019-05-01"
-           ends="2019-06-30"
-           price="78€"
-           info="300 premières places"
-           soldOut="true"
-           url="https://www.billetweb.fr/devfest-Nantes-2019" >}}</li>
-<li>{{< ticket name="Tarif réduit"
-           starts="2019-05-01"
-           ends="2019-10-15"
-           price="20€"
-           info="100 premières places"
-           soldOut="true"
-           url="https://www.billetweb.fr/devfest-Nantes-2019" >}}</li>
-<li>{{< ticket name="Normal"
-           starts="2019-05-01"
-           ends="2019-10-15"
-           price="99€"
-           info="600 places"
-           soldOut="true"
-           url="https://www.billetweb.fr/devfest-Nantes-2019" >}}</li>
-<li>{{< ticket name="Loterie"
-           starts="2019-05-06"
-           ends="2019-06-30"
-           price="99€"
-           info="Jouez à la loterie et tentez de gagner la possibilité d'acheter un pass 2 jours !"
-           soldOut="true"
-           url="https://www.billetweb.fr/devfest-Nantes-2019" >}}</li>
-<li>{{< ticket name="Lazy Birds"
-           starts="2019-09-10"
-           ends="2019-10-15"
-           price="60€"
-           info="Ticket 1 jour en vente à partir du 10 septembre 10h"
-           soldOut="true"
-           url="https://www.billetweb.fr/devfest-Nantes-2019" >}}</li>
+<li><a href="https://www.billetweb.fr/devfest-Nantes-2020">{{< ticket
+        name="Early Birds"
+        starts="2019-05-01"
+        ends="2019-06-30"
+        price="78€"
+        info="300 premières places" >}}</a></li>
+<li><a href="https://www.billetweb.fr/devfest-Nantes-2020">{{< ticket
+        name="Tarif réduit"
+        starts="2019-05-01"
+        ends="2019-10-15"
+        price="20€"
+        info="100 premières places" >}}</a></li>
+<li><a href="https://www.billetweb.fr/devfest-Nantes-2020">{{< ticket
+        name="Normal"
+        starts="2019-05-01"
+        ends="2019-10-15"
+        price="99€"
+        info="600 places" >}}</a></li>
+<li><a href="https://www.billetweb.fr/devfest-Nantes-2020">{{< ticket
+        name="Loterie"
+        starts="2019-05-06"
+        ends="2019-06-30"
+        price="99€"
+        soldOut="true"
+        info="Jouez à la loterie et tentez de gagner la possibilité d'acheter un pass 2 jours !" >}}</a></li>
+<li><a href="https://www.billetweb.fr/devfest-Nantes-2020">{{< ticket
+        name="Lazy Birds"
+        starts="2019-09-10"
+        ends="2019-10-15"
+        price="60€"
+        closed="true"
+        info="Ticket 1 jour en vente à partir du 10 septembre 10h" >}}</a></li>
 </ul>
 
 <p class="caption">* Votre billet deux jours (prix TTC) vous donne accès à toutes les conférences, aux pauses café, et au repas. L'hébergement n'est PAS inclus dans ce prix.</p>
