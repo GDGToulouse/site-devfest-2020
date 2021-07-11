@@ -1,14 +1,13 @@
 ---
 title: Speakers
+menu:
+  main:
+    weight: 40
 
-#menu:
-#  main:
-#    weight: 40
+draft: false
 
 ---
 
-{{% hero %}}
-<!-- TODO: filter and search -->
+{{% hero img="/images/backgrounds/back-4.jpg" imgLabel="DevFest Nantes 2021"%}}
 {{% /hero %}}
-
 
