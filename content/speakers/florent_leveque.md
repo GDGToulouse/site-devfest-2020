@@ -4,7 +4,7 @@ name: Florent Lévêque
 id: bsQBCvfQjCbafP0wFCWVkPqwTGX2
 feature: false
 company: ENI
-companyLogo: /images/partners/ENI.png
+companyLogo: /images/partners/eni.png
 photoUrl: https://avatars.githubusercontent.com/u/84006572?v=4
 socials:
   - icon: github

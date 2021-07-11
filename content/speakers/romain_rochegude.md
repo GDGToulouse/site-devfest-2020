@@ -4,7 +4,7 @@ name: Romain Rochegude
 id: nO7okjQpgbTzVlBSNtD32IJLbOJ3
 feature: false
 company: Accenture
-companyLogo: /images/partners/Accenture.png
+companyLogo: /images/partners/accenture.png
 city: Clermont-Ferrand, France
 photoUrl: https://pbs.twimg.com/profile_images/986685595073351683/YYSMkpCk_normal.jpg
 socials:

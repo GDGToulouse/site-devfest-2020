@@ -4,7 +4,7 @@ name: Benoît MAIRE
 id: PBvJhpt5WqR3bi5L8IMfovVNUMS2
 feature: false
 company: SFEIR
-companyLogo: /images/partners/SFEIR.png
+companyLogo: /images/partners/sfeir.png
 city: Nantes, France
 photoUrl: >-
   https://lh6.googleusercontent.com/-Ma9AijpY9Fo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucl9TycNjCJH8mW-KqO5KaurtP-P9g/photo.jpg

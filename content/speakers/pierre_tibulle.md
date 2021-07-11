@@ -4,7 +4,7 @@ name: Pierre Tibulle
 id: 9LHSTmgvjXcyMPyfifAgXjtP6Z02
 feature: false
 company: IKOBOX
-companyLogo: /images/partners/IKOBOX.png
+companyLogo: /images/partners/ikobox.png
 city: Nantes, France
 photoUrl: >-
   https://lh6.googleusercontent.com/-EPCphRSOO1Y/AAAAAAAAAAI/AAAAAAAAARo/JCN5RTGQPos/photo.jpg

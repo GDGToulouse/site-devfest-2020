@@ -4,7 +4,7 @@ name: Hugo Wood
 id: 7hX4q2nlIWTY770efZKTMIqWRSr2
 feature: false
 company: Zenika
-companyLogo: /images/partners/Zenika.png
+companyLogo: /images/partners/zenika.png
 city: Nantes, France
 photoUrl: https://avatars0.githubusercontent.com/u/1656170?v=4
 socials:

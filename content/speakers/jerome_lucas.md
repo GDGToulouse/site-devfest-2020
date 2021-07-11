@@ -4,7 +4,7 @@ name: Jérôme Lucas
 id: S6LolAtN8whz9n7mkvqcWdwsKWy2
 feature: false
 company: Digital4Better
-companyLogo: /images/partners/Digital4Better.png
+companyLogo: /images/partners/digital4better.png
 city: Nantes, France
 photoUrl: https://digital4better.com/media/jerome_nb200.jpeg
 socials:

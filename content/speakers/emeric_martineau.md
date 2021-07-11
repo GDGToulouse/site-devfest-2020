@@ -4,7 +4,7 @@ name: Emeric Martineau
 id: RBd17nmc8uMTe2KYteh1Nhl9XpD3
 feature: false
 company: Zenika
-companyLogo: /images/partners/Zenika.png
+companyLogo: /images/partners/zenika.png
 city: Nantes, France
 photoUrl: >-
   https://lh4.googleusercontent.com/-z1PzogWFSWQ/AAAAAAAAAAI/AAAAAAAAAHs/1yGIhD3Ri14/photo.jpg

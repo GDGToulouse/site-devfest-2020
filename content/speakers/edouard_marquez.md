@@ -4,7 +4,7 @@ name: Edouard Marquez
 id: FskfRIn9B0V1rQ9rca4QERaw5Mq1
 feature: false
 company: Freelance
-companyLogo: /images/partners/Freelance.png
+companyLogo: /images/partners/freelance.png
 city: Paris, France
 photoUrl: >-
   https://lh3.googleusercontent.com/-mEUIVk33oM0/AAAAAAAAAAI/AAAAAAABPEk/iY71eaEL1qc/photo.jpg

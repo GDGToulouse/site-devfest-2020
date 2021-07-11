@@ -4,7 +4,7 @@ name: Antoine Meausoone
 id: tQ2JiQjbJ2ZCS81oy3c7mRdSpp33
 feature: false
 company: Sfeir
-companyLogo: /images/partners/Sfeir.png
+companyLogo: /images/partners/sfeir.png
 city: Lille, France
 photoUrl: >-
   https://lh3.googleusercontent.com/-Bs0CsngAOE0/AAAAAAAAAAI/AAAAAAAAAB8/S31002Hbe3Y/photo.jpg

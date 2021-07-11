@@ -4,7 +4,7 @@ name: Louis Tournayre
 id: golnkyMWh5W7HjoAfmYcCvXh9Yg2
 feature: false
 company: Zenika
-companyLogo: /images/partners/Zenika.png
+companyLogo: /images/partners/zenika.png
 city: Lyon
 photoUrl: >-
   https://lh4.googleusercontent.com/-cVRndUQ_8GQ/AAAAAAAAAAI/AAAAAAAAAB8/HnFHwMBucLc/photo.jpg

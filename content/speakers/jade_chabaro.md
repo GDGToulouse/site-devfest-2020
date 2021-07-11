@@ -4,7 +4,7 @@ name: Jade CHABARO
 id: 2b10SWDVQQTwgqEVoyTlDtPx0q63
 feature: false
 company: SFEIR
-companyLogo: /images/partners/SFEIR.png
+companyLogo: /images/partners/sfeir.png
 city: Paris, France
 photoUrl: >-
   https://lh5.googleusercontent.com/-JHGSbEhg3v0/AAAAAAAAAAI/AAAAAAAAAAc/8Si7Zn80HEg/photo.jpg

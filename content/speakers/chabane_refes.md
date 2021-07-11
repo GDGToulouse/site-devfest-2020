@@ -4,7 +4,7 @@ name: Chabane Refes
 id: lnTyqvmDQTVyinwMGFoh5trtHcf2
 feature: false
 company: Stack Labs
-companyLogo: /images/partners/Stack Labs.png
+companyLogo: /images/partners/stack labs.png
 photoUrl: >-
   https://lh3.googleusercontent.com/-62A2WbxXPjM/AAAAAAAAAAI/AAAAAAAAAEw/DX7i3nZ38cA/photo.jpg
 socials:

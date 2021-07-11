@@ -4,7 +4,7 @@ name: Jimmy Kasprzak
 id: 3jAixvFWDwMpoISHbnkL3IqGNjP2
 feature: false
 company: Zenika
-companyLogo: /images/partners/Zenika.png
+companyLogo: /images/partners/zenika.png
 city: Nantes, France
 photoUrl: >-
   https://lh3.googleusercontent.com/-1klXL98Tgmo/AAAAAAAAAAI/AAAAAAAAAI4/2MgtgWfi9Zw/photo.jpg

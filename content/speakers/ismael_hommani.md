@@ -4,7 +4,7 @@ name: Ismaël Hommani
 id: E20mVbroudWHTZgoQHIM54ukxqH2
 feature: false
 company: WeScale
-companyLogo: /images/partners/WeScale.png
+companyLogo: /images/partners/wescale.png
 city: Paris, France
 photoUrl: >-
   https://lh3.googleusercontent.com/a-/AOh14Gj_HGBqpj8jPQzntafuFAatiRmLB8RsiMeHKFBG

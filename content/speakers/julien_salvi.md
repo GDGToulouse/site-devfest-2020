@@ -4,7 +4,7 @@ name: Julien Salvi
 id: 3sdJi27e0DcE50hVB8pz1IZ2dzZ2
 feature: false
 company: Aircall
-companyLogo: /images/partners/Aircall.png
+companyLogo: /images/partners/aircall.png
 city: Paris, France
 photoUrl: https://sessionize.com/image/12c2-200o200o2-Qf5YU6fWEKj4f9iBQP7Pcs.jpg
 socials:

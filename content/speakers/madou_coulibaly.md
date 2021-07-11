@@ -4,7 +4,7 @@ name: Madou Coulibaly
 id: NZLAZfElc3PFOB6Qmg4XjVbPKBZ2
 feature: false
 company: Red Hat
-companyLogo: /images/partners/Red Hat.png
+companyLogo: /images/partners/red hat.png
 city: Nantes, France
 photoUrl: >-
   https://avatars2.githubusercontent.com/u/20398651?s=460&u=dd4b89727d05da46cd53e4a809bb67173d25a9ce&v=4

@@ -4,7 +4,7 @@ name: François Teychene
 id: EZdFes7RoSTGQJO5uOBCqSeyGvv2
 feature: false
 company: Elastic
-companyLogo: /images/partners/Elastic.png
+companyLogo: /images/partners/elastic.png
 city: Montpellier, France
 photoUrl: >-
   https://lh6.googleusercontent.com/-RvGrfi4p_Uk/AAAAAAAAAAI/AAAAAAAABtE/iqj8zP9rc0U/photo.jpg

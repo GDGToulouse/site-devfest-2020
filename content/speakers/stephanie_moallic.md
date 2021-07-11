@@ -4,7 +4,7 @@ name: Stéphanie MOALLIC
 id: IxHYleq5FCX6VKtNu0lcjQVAvP03
 feature: false
 company: OVHcloud
-companyLogo: /images/partners/OVHcloud.png
+companyLogo: /images/partners/ovhcloud.png
 city: Plougastel-Daoulas, France
 photoUrl: >-
   https://lh4.googleusercontent.com/-TOivudf-W-Q/AAAAAAAAAAI/AAAAAAAAFsc/5xAYoi80dzw/photo.jpg

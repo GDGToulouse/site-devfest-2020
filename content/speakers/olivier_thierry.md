@@ -4,7 +4,7 @@ name: Olivier THIERRY
 id: 2fVWe1dtXchHWO617xdVywZJKiW2
 feature: false
 company: ASI
-companyLogo: /images/partners/ASI.png
+companyLogo: /images/partners/asi.png
 city: Nantes, France
 photoUrl: >-
   https://lh6.googleusercontent.com/-nCwPIFQPUqI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdEYq9ZHz9xv59b4o9VGbYn-MBaVg/mo/photo.jpg

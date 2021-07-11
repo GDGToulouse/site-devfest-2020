@@ -4,7 +4,7 @@ name: Cynthia Staebler
 id: WeyT26YvUmPM5x3GTRbsfoP6ddr2
 feature: false
 company: Zenika
-companyLogo: /images/partners/Zenika.png
+companyLogo: /images/partners/zenika.png
 photoUrl: >-
   https://lh3.googleusercontent.com/a-/AAuE7mBwSvJKUBoFQmtgP5mmTx4XquiG5YHEDhgJhYMTpQ
 socials:

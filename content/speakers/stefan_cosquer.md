@@ -4,7 +4,7 @@ name: Stefan Cosquer
 id: UcOkqPf8e7by8kcWRUl4pRdQt0l1
 feature: false
 company: Digital4Better
-companyLogo: /images/partners/Digital4Better.png
+companyLogo: /images/partners/digital4better.png
 city: Nantes
 photoUrl: https://avatars1.githubusercontent.com/u/9282806?v=4
 socials:

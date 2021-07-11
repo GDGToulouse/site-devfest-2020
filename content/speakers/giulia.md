@@ -4,7 +4,7 @@ name: Giulia
 id: L8D80utZ9eRux6kBDVlPKxipc5J3
 feature: false
 company: CybelAngel
-companyLogo: /images/partners/CybelAngel.png
+companyLogo: /images/partners/cybelangel.png
 city: Paris, France
 photoUrl: https://avatars.githubusercontent.com/u/11477672?v=4
 socials:

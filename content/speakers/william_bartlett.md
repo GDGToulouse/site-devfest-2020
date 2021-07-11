@@ -4,7 +4,7 @@ name: William Bartlett
 id: Q3gF8NTUrnMPDDJ8HWfe00qYw5q2
 feature: false
 company: Zenika
-companyLogo: /images/partners/Zenika.png
+companyLogo: /images/partners/zenika.png
 city: Nantes, France
 photoUrl: https://namrats.net/images/Photo-2019-square.jpg
 socials:

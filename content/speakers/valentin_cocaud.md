@@ -8,4 +8,3 @@ socials: []
 
 ---
 
-undefined

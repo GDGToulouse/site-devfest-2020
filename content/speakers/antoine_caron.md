@@ -4,7 +4,7 @@ name: Antoine CARON
 id: mODnTNL9onNOU1odUO9jb2tbpQj2
 feature: false
 company: Bedrock
-companyLogo: /images/partners/Bedrock.png
+companyLogo: /images/partners/bedrock.png
 city: Lyon, France
 photoUrl: https://avatars0.githubusercontent.com/u/6263857?v=4
 socials:

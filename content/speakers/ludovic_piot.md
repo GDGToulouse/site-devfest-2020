@@ -4,7 +4,7 @@ name: Ludovic Piot
 id: 6gcb9OjG5cgl14IQBEt5yu4TmTT2
 feature: false
 company: TheGarageBandOfIT
-companyLogo: /images/partners/TheGarageBandOfIT.png
+companyLogo: /images/partners/thegaragebandofit.png
 city: Savigny-sur-Orge, France
 photoUrl: >-
   https://lh4.googleusercontent.com/-e48Nhdo-ubE/AAAAAAAAAAI/AAAAAAAANS0/iek18uwtDEw/photo.jpg

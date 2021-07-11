@@ -4,7 +4,7 @@ name: Nicolas Greffard
 id: eBX1yLqFltf5oN6955kXst2nWvu2
 feature: false
 company: Valeuriad
-companyLogo: /images/partners/Valeuriad.png
+companyLogo: /images/partners/valeuriad.png
 city: Nantes, France
 photoUrl: >-
   https://lh5.googleusercontent.com/-f0Q2OD1Ql1o/AAAAAAAAAAI/AAAAAAAAABM/w7DRPUk5iGc/photo.jpg

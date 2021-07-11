@@ -4,7 +4,7 @@ name: Yohan Lasorsa
 id: T5VqnaJD8MPK6FO56sicZOKo0iE2
 feature: false
 company: Microsoft
-companyLogo: /images/partners/Microsoft.png
+companyLogo: /images/partners/microsoft.png
 city: Grenoble, France
 photoUrl: https://avatars0.githubusercontent.com/u/593151?v=4
 socials:

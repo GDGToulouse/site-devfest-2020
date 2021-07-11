@@ -4,7 +4,7 @@ name: Laurent Grangeau
 id: VeBTP8lqOYaXBCpwTlGjBW2n1yH2
 feature: false
 company: Sogeti
-companyLogo: /images/partners/Sogeti.png
+companyLogo: /images/partners/sogeti.png
 city: Paris, France
 photoUrl: https://avatars3.githubusercontent.com/u/4910715?v=4
 socials:

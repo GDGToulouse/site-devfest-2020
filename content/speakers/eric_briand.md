@@ -4,7 +4,7 @@ name: Eric Briand
 id: nekfKGP05KWO5W5CwB9uegBovAx1
 feature: false
 company: Zenika
-companyLogo: /images/partners/Zenika.png
+companyLogo: /images/partners/zenika.png
 city: Nantes, France
 photoUrl: >-
   https://lh6.googleusercontent.com/-lC7mxzc8Tk0/AAAAAAAAAAI/AAAAAAAAAP0/Fh3yc5EcC6g/photo.jpg

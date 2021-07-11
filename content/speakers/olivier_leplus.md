@@ -4,7 +4,7 @@ name: Olivier Leplus
 id: DNlgKL7C5DNK0y48Lf7ylPB4bmk2
 feature: false
 company: Microsoft
-companyLogo: /images/partners/Microsoft.png
+companyLogo: /images/partners/microsoft.png
 city: Paris, France
 photoUrl: >-
   https://raw.githubusercontent.com/tagazok/tagazok.github.io/master/assets/images/avatar%20olivier.png

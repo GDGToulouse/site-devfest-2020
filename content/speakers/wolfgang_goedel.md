@@ -4,7 +4,7 @@ name: Wolfgang Goedel
 id: u3ZxAhtpI8X21IW8GInJ4PxQx1J2
 feature: false
 company: SFEIR
-companyLogo: /images/partners/SFEIR.png
+companyLogo: /images/partners/sfeir.png
 city: Paris, France
 photoUrl: >-
   https://lh6.googleusercontent.com/-E3m3T7dr6jw/AAAAAAAAAAI/AAAAAAAAAfg/Io3PHXtJ7mk/photo.jpg

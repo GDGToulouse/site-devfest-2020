@@ -4,7 +4,7 @@ name: Thibaud Courtoison
 id: n18EtaJ86jR0lL3Sh2t10PIzTB52
 feature: false
 company: October
-companyLogo: /images/partners/October.png
+companyLogo: /images/partners/october.png
 city: Nantes, France
 photoUrl: https://avatars2.githubusercontent.com/u/6669733?v=4
 socials:

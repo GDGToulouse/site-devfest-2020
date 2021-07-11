@@ -4,7 +4,7 @@ name: Nicolas FRIZZARIN
 id: jpm0v77l5dgcIDp33DJs4IAMhzl2
 feature: false
 company: SFEIR
-companyLogo: /images/partners/SFEIR.png
+companyLogo: /images/partners/sfeir.png
 city: Metz, France
 photoUrl: >-
   https://lh4.googleusercontent.com/-QZhPN3UNDBA/AAAAAAAAAAI/AAAAAAAAAEs/Ki7Avw5jkKg/photo.jpg

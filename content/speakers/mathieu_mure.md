@@ -4,7 +4,7 @@ name: Mathieu Mure
 id: wWYKM4fzp9SqMgB6euFohSb8ud33
 feature: false
 company: Zenika
-companyLogo: /images/partners/Zenika.png
+companyLogo: /images/partners/zenika.png
 city: Lyon, France
 photoUrl: >-
   https://lh3.googleusercontent.com/-zW9q6DSj72k/AAAAAAAAAAI/AAAAAAAAABs/_pqpmU87wFk/photo.jpg

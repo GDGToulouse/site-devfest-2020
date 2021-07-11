@@ -4,7 +4,7 @@ name: Benoît Masson
 id: japJiZDydyXaI5joAPFmcI3sSRc2
 feature: false
 company: OVHcloud
-companyLogo: /images/partners/OVHcloud.png
+companyLogo: /images/partners/ovhcloud.png
 city: Rennes, France
 photoUrl: >-
   https://lh6.googleusercontent.com/-lDy6h3bK4HM/AAAAAAAAAAI/AAAAAAAAAVw/Glz_K6R52y4/photo.jpg

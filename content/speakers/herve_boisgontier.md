@@ -4,7 +4,7 @@ name: Hervé Boisgontier
 id: KWlesYn7ciZTRyCHSu3NQqMuGVi2
 feature: false
 company: ENI École Informatique
-companyLogo: /images/partners/ENI École Informatique.png
+companyLogo: /images/partners/eni école informatique.png
 city: Saint-Herblain, France
 photoUrl: https://avatars1.githubusercontent.com/u/57721330?v=4
 socials:

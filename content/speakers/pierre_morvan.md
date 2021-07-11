@@ -15,4 +15,3 @@ socials:
 
 ---
 
-undefined

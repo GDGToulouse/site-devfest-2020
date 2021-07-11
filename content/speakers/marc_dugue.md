@@ -4,7 +4,7 @@ name: Marc DUGUE
 id: biWKM3edJtX6IkI0Nc128sYFYkO2
 feature: false
 company: Perspectives visuelles
-companyLogo: /images/partners/Perspectives visuelles.png
+companyLogo: /images/partners/perspectives visuelles.png
 city: Nantes, France
 photoUrl: >-
   https://lh3.googleusercontent.com/a-/AOh14GjgH5V8kkSvgkWInpRtEAsVXDtnIE1CFxSPPj5JeQ

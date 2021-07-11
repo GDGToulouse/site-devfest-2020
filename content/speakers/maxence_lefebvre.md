@@ -4,7 +4,7 @@ name: Maxence LEFEBVRE
 id: E3IVyFcvNReeThR8EXx2KI3SZBo1
 feature: false
 company: SFEIR
-companyLogo: /images/partners/SFEIR.png
+companyLogo: /images/partners/sfeir.png
 city: Lille, France
 photoUrl: >-
   https://lh3.googleusercontent.com/a-/AOh14GhjOwtO_V_MB99x8_d-N3CcoN7kASlVoG7vC2tT6Q

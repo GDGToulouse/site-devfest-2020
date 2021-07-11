@@ -4,7 +4,7 @@ name: David Laizé
 id: aO4XGEgkJHOHcy8VigCrlrGC6M62
 feature: false
 company: SII
-companyLogo: /images/partners/SII.png
+companyLogo: /images/partners/sii.png
 city: Rennes, France
 photoUrl: >-
   https://lh3.googleusercontent.com/-Rd2VV6SoT-0/AAAAAAAAAAI/AAAAAAAADQE/6dQFaAyHd_M/photo.jpg

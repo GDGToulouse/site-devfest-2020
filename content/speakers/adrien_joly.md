@@ -4,7 +4,7 @@ name: Adrien JOLY
 id: WCr1V33vb0cIZWLSA6eD0dy39l33
 feature: false
 company: SHODO
-companyLogo: /images/partners/SHODO.png
+companyLogo: /images/partners/shodo.png
 city: Paris, France
 photoUrl: >-
   https://lh3.googleusercontent.com/a-/AOh14GhG7DN6L_rNGvTUYA94gO8OmTITs_zpYCUjgwqRvOs
